@@ -37,7 +37,7 @@ typecheck: ## Type-check with ty
 	uv run ty check src/
 
 test: ## Run pytest (unit tests, no Ollama required)
-	uv run pytest
+	uv run pytest --cov=src --cov-report=term-missing
 
 score-1.5b: ## Score all answers with qwen2.5:1.5b (~15 min)
 	uv run python -m src.judging.runner --model qwen2.5:1.5b
