@@ -1,0 +1,105 @@
+[
+  {
+    "id": "hc01_good",
+    "question": "What is NordBank's CET1 ratio?",
+    "context": [
+      "NordBank's Common Equity Tier 1 ratio was 16.1% as of Q4 2024."
+    ],
+    "answer": "NordBank's CET1 ratio was 16.1% as of Q4 2024.",
+    "pipeline": "handcrafted",
+    "question_type": "single_hop"
+  },
+  {
+    "id": "hc01_mediocre",
+    "question": "What is NordBank's CET1 ratio?",
+    "context": [
+      "NordBank's Common Equity Tier 1 ratio was 16.1% as of Q4 2024."
+    ],
+    "answer": "NordBank has a strong capital position with a CET1 ratio above 15%.",
+    "pipeline": "handcrafted",
+    "question_type": "single_hop"
+  },
+  {
+    "id": "hc01_bad",
+    "question": "What is NordBank's CET1 ratio?",
+    "context": [
+      "NordBank's Common Equity Tier 1 ratio was 16.1% as of Q4 2024."
+    ],
+    "answer": "NordBank's CET1 ratio was 12.5%, meeting the minimum regulatory requirement.",
+    "pipeline": "handcrafted",
+    "question_type": "single_hop"
+  },
+  {
+    "id": "hc02_good",
+    "question": "What drove NordBank's fee income growth?",
+    "context": [
+      "Fee income grew 12% in 2024.",
+      "Growth was driven by wealth management mandates and increased transaction volumes in trade finance."
+    ],
+    "answer": "NordBank's fee income grew 12% in 2024, driven by wealth management mandates and higher trade finance volumes.",
+    "pipeline": "handcrafted",
+    "question_type": "multi_hop"
+  },
+  {
+    "id": "hc02_mediocre",
+    "question": "What drove NordBank's fee income growth?",
+    "context": [
+      "Fee income grew 12% in 2024.",
+      "Growth was driven by wealth management mandates and increased transaction volumes in trade finance."
+    ],
+    "answer": "NordBank's fee income grew due to better business conditions.",
+    "pipeline": "handcrafted",
+    "question_type": "multi_hop"
+  },
+  {
+    "id": "hc02_bad",
+    "question": "What drove NordBank's fee income growth?",
+    "context": [
+      "Fee income grew 12% in 2024.",
+      "Growth was driven by wealth management mandates and increased transaction volumes in trade finance."
+    ],
+    "answer": "Fee income declined due to competition from fintech companies.",
+    "pipeline": "handcrafted",
+    "question_type": "multi_hop"
+  },
+  {
+    "id": "hc03_good",
+    "question": "Has NordBank acquired any companies in 2024?",
+    "context": [
+      "NordBank's M&A strategy focuses on organic growth and selective bolt-on acquisitions in fintech."
+    ],
+    "answer": "The context does not confirm any completed acquisitions in 2024; NordBank's strategy mentions selective fintech acquisitions as a goal.",
+    "pipeline": "handcrafted",
+    "question_type": "absence_reasoning"
+  },
+  {
+    "id": "hc03_mediocre",
+    "question": "Has NordBank acquired any companies in 2024?",
+    "context": [
+      "NordBank's M&A strategy focuses on organic growth and selective bolt-on acquisitions in fintech."
+    ],
+    "answer": "NordBank is considering acquisitions in fintech.",
+    "pipeline": "handcrafted",
+    "question_type": "absence_reasoning"
+  },
+  {
+    "id": "hc03_bad",
+    "question": "Has NordBank acquired any companies in 2024?",
+    "context": [
+      "NordBank's M&A strategy focuses on organic growth and selective bolt-on acquisitions in fintech."
+    ],
+    "answer": "Yes, NordBank acquired two fintech companies in 2024.",
+    "pipeline": "handcrafted",
+    "question_type": "absence_reasoning"
+  },
+  {
+    "id": "hc04_good",
+    "question": "What is NordBank's net stable funding ratio?",
+    "context": [
+      "NordBank's NSFR was 118% at year-end 2024, comfortably above the 100% minimum."
+    ],
+    "answer": "NordBank's net stable funding ratio was 118% at year-end 2024.",
+    "pipeline": "handcrafted",
+    "question_type": "single_hop"
+  }
+]

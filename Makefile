@@ -1,4 +1,4 @@
-.PHONY: help setup sync lint format check typecheck test \
+.PHONY: help setup sync lint format check typecheck test notebooks \
         score-all score-1.5b score-3b score-4b run lab clean reset ci dev
 
 help: ## Show this help
@@ -38,6 +38,29 @@ typecheck: ## Type-check with ty
 
 test: ## Run pytest (unit tests, no Ollama required)
 	uv run pytest --cov=src --cov-report=term-missing
+
+notebooks: ## Execute all notebooks in order (nb02 requires Ollama)
+	uv run python -c "import json,pathlib,uuid; [nb.__setitem__('cells',[dict(**c,id=c.get('id',uuid.uuid4().hex[:8])) for c in nb['cells']]) or p.write_text(json.dumps(nb,indent=1)) for p in sorted(pathlib.Path('notebooks').glob('*.ipynb')) for nb in [json.loads(p.read_text())]]"
+	uv run jupyter nbconvert --to notebook --execute --inplace \
+		--ExecutePreprocessor.timeout=3600 \
+		--ExecutePreprocessor.kernel_name=llm-judge \
+		notebooks/01_answer_corpus.ipynb
+	uv run jupyter nbconvert --to notebook --execute --inplace \
+		--ExecutePreprocessor.timeout=3600 \
+		--ExecutePreprocessor.kernel_name=llm-judge \
+		notebooks/02_judge_scoring.ipynb
+	uv run jupyter nbconvert --to notebook --execute --inplace \
+		--ExecutePreprocessor.timeout=3600 \
+		--ExecutePreprocessor.kernel_name=llm-judge \
+		notebooks/03_inter_judge_agreement.ipynb
+	uv run jupyter nbconvert --to notebook --execute --inplace \
+		--ExecutePreprocessor.timeout=3600 \
+		--ExecutePreprocessor.kernel_name=llm-judge \
+		notebooks/04_human_vs_model.ipynb
+	uv run jupyter nbconvert --to notebook --execute --inplace \
+		--ExecutePreprocessor.timeout=3600 \
+		--ExecutePreprocessor.kernel_name=llm-judge \
+		notebooks/05_calibration_and_correction.ipynb
 
 score-1.5b: ## Score all answers with qwen2.5:1.5b (~15 min)
 	uv run python -m src.judging.runner --model qwen2.5:1.5b

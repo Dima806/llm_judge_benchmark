@@ -1,0 +1,209 @@
+[
+  {
+    "id": "q01_graph",
+    "question": "What was NordBank's Tier 1 capital ratio in 2024?",
+    "context": [
+      "NordBank reported a Tier 1 capital ratio of 18.4% in its 2024 annual report, exceeding the regulatory minimum of 12%."
+    ],
+    "answer": "NordBank's Tier 1 capital ratio was 18.4% in 2024.",
+    "pipeline": "graph",
+    "question_type": "single_hop"
+  },
+  {
+    "id": "q02_graph",
+    "question": "How did NordBank's net interest margin change between 2022 and 2024?",
+    "context": [
+      "Net interest margin was 2.1% in 2022.",
+      "By 2024 NordBank reported a net interest margin of 2.7%, driven by rising policy rates."
+    ],
+    "answer": "NordBank's net interest margin increased from 2.1% in 2022 to 2.7% in 2024.",
+    "pipeline": "graph",
+    "question_type": "multi_hop"
+  },
+  {
+    "id": "q03_graph",
+    "question": "Did NordBank receive any regulatory fines in 2023?",
+    "context": [
+      "NordBank's 2023 compliance report highlights updated AML procedures and staff training investments."
+    ],
+    "answer": "The context does not mention any regulatory fines in 2023.",
+    "pipeline": "graph",
+    "question_type": "absence_reasoning"
+  },
+  {
+    "id": "q04_graph",
+    "question": "What is NordBank's primary retail lending product?",
+    "context": [
+      "NordBank's retail division offers mortgage loans, personal loans, and credit cards. Mortgage loans account for 68% of the retail loan book."
+    ],
+    "answer": "NordBank's primary retail lending product is mortgage loans, which make up 68% of its retail loan book.",
+    "pipeline": "graph",
+    "question_type": "single_hop"
+  },
+  {
+    "id": "q05_graph",
+    "question": "How many employees did NordBank have at the end of 2024?",
+    "context": [
+      "As of December 31 2024, NordBank employed 12,450 full-time equivalents, down from 13,100 in 2023 following a restructuring programme."
+    ],
+    "answer": "NordBank had 12,450 full-time equivalent employees at the end of 2024.",
+    "pipeline": "graph",
+    "question_type": "single_hop"
+  },
+  {
+    "id": "q06_graph",
+    "question": "What caused the reduction in NordBank's cost-to-income ratio from 2022 to 2024?",
+    "context": [
+      "Cost-to-income ratio fell from 61% in 2022 to 54% in 2024.",
+      "The improvement was attributed to the digital transformation programme launched in Q3 2022, which automated back-office processes."
+    ],
+    "answer": "The reduction in NordBank's cost-to-income ratio from 61% to 54% was driven by the digital transformation programme that automated back-office processes.",
+    "pipeline": "graph",
+    "question_type": "multi_hop"
+  },
+  {
+    "id": "q07_graph",
+    "question": "Has NordBank expanded into any new markets since 2022?",
+    "context": [
+      "NordBank's 2024 strategy update focuses on deepening penetration in existing Nordic markets."
+    ],
+    "answer": "The context does not indicate expansion into new markets; NordBank's strategy focuses on existing Nordic markets.",
+    "pipeline": "graph",
+    "question_type": "absence_reasoning"
+  },
+  {
+    "id": "q08_graph",
+    "question": "What was NordBank's return on equity in 2024?",
+    "context": [
+      "NordBank achieved a return on equity of 14.2% in 2024, compared to 11.8% in 2023."
+    ],
+    "answer": "NordBank's return on equity was 14.2% in 2024.",
+    "pipeline": "graph",
+    "question_type": "single_hop"
+  },
+  {
+    "id": "q09_graph",
+    "question": "What rating did Moody's assign to NordBank's long-term debt?",
+    "context": [
+      "Moody's affirmed NordBank's long-term issuer rating at A2 with a stable outlook in June 2024."
+    ],
+    "answer": "Moody's assigned NordBank's long-term debt an A2 rating with a stable outlook.",
+    "pipeline": "graph",
+    "question_type": "single_hop"
+  },
+  {
+    "id": "q10_graph",
+    "question": "How does NordBank's NPL ratio compare to the Nordic banking sector average?",
+    "context": [
+      "NordBank's non-performing loan ratio stands at 1.2%.",
+      "The Nordic banking sector average NPL ratio was 1.8% in 2024 according to the ECB."
+    ],
+    "answer": "NordBank's NPL ratio of 1.2% is below the Nordic banking sector average of 1.8%.",
+    "pipeline": "graph",
+    "question_type": "multi_hop"
+  },
+  {
+    "id": "q11_graph",
+    "question": "What sustainability targets has NordBank committed to?",
+    "context": [
+      "NordBank's 2024 ESG report details its commitment to net-zero financed emissions by 2050 and a 50% reduction in operational carbon by 2030."
+    ],
+    "answer": "NordBank has committed to net-zero financed emissions by 2050 and a 50% reduction in operational carbon by 2030.",
+    "pipeline": "graph",
+    "question_type": "single_hop"
+  },
+  {
+    "id": "q12_graph",
+    "question": "Did NordBank pay a dividend in 2023?",
+    "context": [
+      "NordBank's board proposed a dividend of EUR 1.20 per share for 2023, subject to shareholder approval at the AGM."
+    ],
+    "answer": "NordBank proposed a dividend of EUR 1.20 per share for 2023.",
+    "pipeline": "graph",
+    "question_type": "single_hop"
+  },
+  {
+    "id": "q13_graph",
+    "question": "What is the relationship between NordBank's loan growth and deposit growth?",
+    "context": [
+      "Customer deposits grew 8% year-on-year to EUR 142 billion.",
+      "Net loans to customers grew 5% to EUR 118 billion."
+    ],
+    "answer": "NordBank's deposit growth (8%) outpaced loan growth (5%), improving its loan-to-deposit ratio.",
+    "pipeline": "graph",
+    "question_type": "multi_hop"
+  },
+  {
+    "id": "q14_graph",
+    "question": "Has NordBank issued any green bonds?",
+    "context": [
+      "NordBank's funding strategy prioritises covered bond issuance and senior preferred notes."
+    ],
+    "answer": "The context does not mention green bond issuance by NordBank.",
+    "pipeline": "graph",
+    "question_type": "absence_reasoning"
+  },
+  {
+    "id": "q15_graph",
+    "question": "What was NordBank's operating profit in 2024?",
+    "context": [
+      "NordBank reported operating profit of EUR 2.3 billion for the full year 2024, a 19% increase from 2023."
+    ],
+    "answer": "NordBank's operating profit was EUR 2.3 billion in 2024, up 19% from 2023.",
+    "pipeline": "graph",
+    "question_type": "single_hop"
+  },
+  {
+    "id": "q16_graph",
+    "question": "Which business segment contributed most to NordBank's revenue in 2024?",
+    "context": [
+      "Corporate banking generated EUR 3.1 billion in revenue.",
+      "Retail banking contributed EUR 2.8 billion.",
+      "Asset management added EUR 0.9 billion."
+    ],
+    "answer": "Corporate banking was NordBank's largest revenue segment at EUR 3.1 billion in 2024.",
+    "pipeline": "graph",
+    "question_type": "multi_hop"
+  },
+  {
+    "id": "q17_graph",
+    "question": "Is NordBank subject to DORA compliance requirements?",
+    "context": [
+      "NordBank's 2024 risk report covers market risk, credit risk, operational risk, and liquidity risk frameworks."
+    ],
+    "answer": "The context does not mention DORA compliance specifically.",
+    "pipeline": "graph",
+    "question_type": "absence_reasoning"
+  },
+  {
+    "id": "q18_graph",
+    "question": "What was NordBank's liquidity coverage ratio at year-end 2024?",
+    "context": [
+      "NordBank's liquidity coverage ratio was 158% as of December 2024, well above the 100% regulatory requirement."
+    ],
+    "answer": "NordBank's liquidity coverage ratio was 158% at year-end 2024.",
+    "pipeline": "graph",
+    "question_type": "single_hop"
+  },
+  {
+    "id": "q19_graph",
+    "question": "How did rising interest rates affect NordBank's funding costs?",
+    "context": [
+      "Wholesale funding costs rose by 85 basis points in 2023.",
+      "This was partially offset by repricing of variable-rate assets, resulting in a net positive interest income effect."
+    ],
+    "answer": "Rising interest rates increased NordBank's wholesale funding costs by 85 bps, but the net effect on interest income was positive due to variable-rate asset repricing.",
+    "pipeline": "graph",
+    "question_type": "multi_hop"
+  },
+  {
+    "id": "q20_graph",
+    "question": "What cybersecurity incidents did NordBank experience in 2024?",
+    "context": [
+      "NordBank invested EUR 120 million in IT security upgrades in 2024 and completed its SOC 2 Type II certification."
+    ],
+    "answer": "The context does not report any cybersecurity incidents; it describes investment in security upgrades.",
+    "pipeline": "graph",
+    "question_type": "absence_reasoning"
+  }
+]
