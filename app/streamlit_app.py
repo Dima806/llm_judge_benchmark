@@ -18,7 +18,7 @@ st.title("LLM Judge Benchmark — Interactive Explorer")
 EVAL_DIR = Path("data/eval")
 HUMAN_PATH = Path("data/human/human_scores.csv")
 METRICS = ["context_relevance", "groundedness", "answer_relevance"]
-MODELS = ["qwen2.5:1.5b", "qwen2.5:3b", "gemma3:4b"]
+MODELS = ["qwen2.5:7b", "qwen2.5:7b", "gemma3:4b"]
 
 
 @st.cache_data

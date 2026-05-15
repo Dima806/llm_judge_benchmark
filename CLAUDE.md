@@ -64,9 +64,9 @@ config/settings.yaml     # Model names, Ollama URL, scoring thresholds
 
 | Model | Ollama tag | RAM |
 |---|---|---|
-| Qwen 2.5 1.5B | `qwen2.5:1.5b` | ~1.1 GB |
-| Gemma 3 1B | `gemma3:1b` | ~830 MB |
-| Llama 3.2 1B | `llama3.2:1b` | ~1.3 GB |
+| Qwen 2.5 1.5B | `qwen2.5:7b` | ~1.1 GB |
+| Gemma 3 1B | `gemma3:4b` | ~830 MB |
+| Llama 3.2 1B | `llama3.1:8b` | ~1.3 GB |
 
 All three models are under 1.5 GB. Load one at a time; the notebook restarts Ollama between models automatically.
 
@@ -98,7 +98,7 @@ Synthetic baseline CSV columns (`data/human/human_scores.csv`): `id, context_rel
 
 Judge scores output (`data/eval/scores_<safe_model>.json`) — one record per (id, model, metric):
 ```json
-{"id": "q01_vector", "model": "qwen2.5:1.5b", "metric": "context_relevance", "score": 0.82}
+{"id": "q01_vector", "model": "qwen2.5:7b", "metric": "context_relevance", "score": 0.82}
 ```
 
 ## Testing

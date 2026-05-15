@@ -1,8 +1,8 @@
 ollama_url: "http://localhost:11434"
 models:
-  - "llama3.2:1b"
-  - "gemma3:1b"
-  - "qwen2.5:1.5b"
+  - "gemma3:4b"
+  - "llama3.1:8b"
+  - "qwen2.5:7b"
 score_bucket_low: 0.4
 score_bucket_high: 0.7
 # KV-cache context window sent to Ollama. Default (32768) pre-allocates ~4 GB on a 3B model;

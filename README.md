@@ -13,9 +13,9 @@ GPU, no cloud APIs.
 
 | Model | Ollama tag | RAM | Mean divergence vs baseline |
 |---|---|---|---|
-| Qwen 2.5 1.5B | `qwen2.5:1.5b` | ~1.1 GB | 0.217 |
-| Gemma 3 1B | `gemma3:1b` | ~830 MB | 0.205 |
-| Llama 3.2 1B | `llama3.2:1b` | ~1.3 GB | 0.284 |
+| Qwen 2.5 1.5B | `qwen2.5:7b` | ~1.1 GB | 0.217 |
+| Gemma 3 1B | `gemma3:4b` | ~830 MB | 0.205 |
+| Llama 3.2 1B | `llama3.1:8b` | ~1.3 GB | 0.284 |
 
 Each judge scores the same 50 RAG answers across three RAG Triad dimensions:
 **context relevance**, **groundedness**, and **answer relevance**.
@@ -48,9 +48,9 @@ Run in order:
 
 | Model | context\_relevance | groundedness | answer\_relevance |
 |---|---|---|---|
-| `qwen2.5:1.5b` | 0.824 | 0.833 | 0.881 |
-| `gemma3:1b` | 0.771 | 0.880 | 0.866 |
-| `llama3.2:1b` | 0.468 | 0.595 | 0.645 |
+| `qwen2.5:7b` | 0.824 | 0.833 | 0.881 |
+| `gemma3:4b` | 0.771 | 0.880 | 0.866 |
+| `llama3.1:8b` | 0.468 | 0.595 | 0.645 |
 | Synthetic baseline | 0.741 | 0.773 | 0.819 |
 
 ### Inter-judge agreement (Fleiss' kappa, all 3 judges + baseline)
@@ -68,12 +68,12 @@ judges diverge significantly — both from each other and from the synthetic bas
 
 | Model | Inflation rate (judge > baseline) | Large disagreement rate (div > 0.2) |
 |---|---|---|
-| `qwen2.5:1.5b` | 78% | 33% |
-| `gemma3:1b` | 75% | 34% |
-| `llama3.2:1b` | 25% | 55% |
+| `qwen2.5:7b` | 78% | 33% |
+| `gemma3:4b` | 75% | 34% |
+| `llama3.1:8b` | 25% | 55% |
 
-`qwen2.5:1.5b` and `gemma3:1b` systematically over-score relative to the baseline.
-`llama3.2:1b` deflates scores and has the highest per-instance variance.
+`qwen2.5:7b` and `gemma3:4b` systematically over-score relative to the baseline.
+`llama3.1:8b` deflates scores and has the highest per-instance variance.
 
 ### Calibration (linear correction per judge/metric)
 

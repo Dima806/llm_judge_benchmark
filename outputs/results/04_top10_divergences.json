@@ -1,7 +1,7 @@
 [
   {
     "id":"q14_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.0,
     "human_score":0.9104,
@@ -10,7 +10,7 @@
   },
   {
     "id":"hc01_bad",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.096,
@@ -19,7 +19,7 @@
   },
   {
     "id":"q20_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.0,
     "human_score":0.8372,
@@ -28,7 +28,7 @@
   },
   {
     "id":"q20_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.0,
     "human_score":0.8372,
@@ -37,7 +37,7 @@
   },
   {
     "id":"q14_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.0,
     "human_score":0.834,
@@ -46,7 +46,7 @@
   },
   {
     "id":"hc03_bad",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.175,
@@ -55,7 +55,7 @@
   },
   {
     "id":"hc03_bad",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.175,
@@ -64,7 +64,7 @@
   },
   {
     "id":"q20_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.1,
     "human_score":0.9153,
@@ -73,7 +73,7 @@
   },
   {
     "id":"hc01_bad",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.096,
@@ -82,7 +82,7 @@
   },
   {
     "id":"q20_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.0,
     "human_score":0.7968,

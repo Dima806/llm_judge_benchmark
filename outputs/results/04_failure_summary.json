@@ -1,16 +1,16 @@
 {
   "models": {
-    "gemma3:1b": {
+    "gemma3:4b": {
       "mean_divergence": 0.2048,
       "inflation_rate": 0.7533,
       "large_disagreement_rate": 0.34
     },
-    "llama3.2:1b": {
+    "llama3.1:8b": {
       "mean_divergence": 0.2844,
       "inflation_rate": 0.2467,
       "large_disagreement_rate": 0.5467
     },
-    "qwen2.5:1.5b": {
+    "qwen2.5:7b": {
       "mean_divergence": 0.2172,
       "inflation_rate": 0.78,
       "large_disagreement_rate": 0.3333

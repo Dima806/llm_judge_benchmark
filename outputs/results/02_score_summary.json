@@ -21,6 +21,48 @@
     "count":50
   },
   {
+    "model":"gemma3:4b",
+    "metric":"answer_relevance",
+    "mean":0.872,
+    "std":0.3104,
+    "count":50
+  },
+  {
+    "model":"gemma3:4b",
+    "metric":"context_relevance",
+    "mean":0.878,
+    "std":0.1888,
+    "count":50
+  },
+  {
+    "model":"gemma3:4b",
+    "metric":"groundedness",
+    "mean":0.824,
+    "std":0.3623,
+    "count":50
+  },
+  {
+    "model":"llama3.1:8b",
+    "metric":"answer_relevance",
+    "mean":0.81,
+    "std":0.3157,
+    "count":50
+  },
+  {
+    "model":"llama3.1:8b",
+    "metric":"context_relevance",
+    "mean":0.868,
+    "std":0.1392,
+    "count":50
+  },
+  {
+    "model":"llama3.1:8b",
+    "metric":"groundedness",
+    "mean":0.786,
+    "std":0.2893,
+    "count":50
+  },
+  {
     "model":"llama3.2:1b",
     "metric":"answer_relevance",
     "mean":0.645,
@@ -60,6 +102,27 @@
     "metric":"groundedness",
     "mean":0.833,
     "std":0.2802,
+    "count":50
+  },
+  {
+    "model":"qwen2.5:7b",
+    "metric":"answer_relevance",
+    "mean":0.852,
+    "std":0.2541,
+    "count":50
+  },
+  {
+    "model":"qwen2.5:7b",
+    "metric":"context_relevance",
+    "mean":0.688,
+    "std":0.3218,
+    "count":50
+  },
+  {
+    "model":"qwen2.5:7b",
+    "metric":"groundedness",
+    "mean":0.762,
+    "std":0.3331,
     "count":50
   }
 ]

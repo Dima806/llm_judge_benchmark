@@ -1,6 +1,6 @@
 [
   {
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "kappa_before":0.1054,
     "kappa_after":0.1435,
@@ -8,7 +8,7 @@
     "above_target":false
   },
   {
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "kappa_before":0.2221,
     "kappa_after":0.1525,
@@ -16,7 +16,7 @@
     "above_target":false
   },
   {
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "kappa_before":0.0141,
     "kappa_after":0.0,
@@ -24,7 +24,7 @@
     "above_target":false
   },
   {
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "kappa_before":-0.0887,
     "kappa_after":0.0,
@@ -32,7 +32,7 @@
     "above_target":false
   },
   {
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "kappa_before":0.1169,
     "kappa_after":-0.04,
@@ -40,7 +40,7 @@
     "above_target":false
   },
   {
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "kappa_before":0.0179,
     "kappa_after":0.0,
@@ -48,7 +48,7 @@
     "above_target":false
   },
   {
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "kappa_before":0.1944,
     "kappa_after":0.2316,
@@ -56,7 +56,7 @@
     "above_target":false
   },
   {
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "kappa_before":0.0421,
     "kappa_after":0.1346,
@@ -64,7 +64,7 @@
     "above_target":false
   },
   {
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "kappa_before":0.1379,
     "kappa_after":-0.0471,

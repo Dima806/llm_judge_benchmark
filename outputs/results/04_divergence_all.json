@@ -1,7 +1,7 @@
 [
   {
     "id":"hc01_bad",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.3305,
@@ -9,7 +9,7 @@
   },
   {
     "id":"hc01_good",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8941,
@@ -17,7 +17,7 @@
   },
   {
     "id":"hc01_mediocre",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.5653,
@@ -25,7 +25,7 @@
   },
   {
     "id":"hc02_bad",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.1,
     "human_score":0.2147,
@@ -33,7 +33,7 @@
   },
   {
     "id":"hc02_good",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.8066,
@@ -41,7 +41,7 @@
   },
   {
     "id":"hc02_mediocre",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.4469,
@@ -49,7 +49,7 @@
   },
   {
     "id":"hc03_bad",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.3378,
@@ -57,7 +57,7 @@
   },
   {
     "id":"hc03_good",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.7,
     "human_score":0.6819,
@@ -65,7 +65,7 @@
   },
   {
     "id":"hc03_mediocre",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.1,
     "human_score":0.4486,
@@ -73,7 +73,7 @@
   },
   {
     "id":"hc04_good",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8365,
@@ -81,7 +81,7 @@
   },
   {
     "id":"q01_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":1.0,
@@ -89,7 +89,7 @@
   },
   {
     "id":"q01_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.7186,
@@ -97,7 +97,7 @@
   },
   {
     "id":"q02_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.95,
     "human_score":0.7886,
@@ -105,7 +105,7 @@
   },
   {
     "id":"q02_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.8651,
@@ -113,7 +113,7 @@
   },
   {
     "id":"q03_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.1,
     "human_score":0.6834,
@@ -121,7 +121,7 @@
   },
   {
     "id":"q03_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.7,
     "human_score":0.7719,
@@ -129,7 +129,7 @@
   },
   {
     "id":"q04_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.8679,
@@ -137,7 +137,7 @@
   },
   {
     "id":"q04_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8631,
@@ -145,7 +145,7 @@
   },
   {
     "id":"q05_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.753,
@@ -153,7 +153,7 @@
   },
   {
     "id":"q05_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.9495,
@@ -161,7 +161,7 @@
   },
   {
     "id":"q06_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.95,
     "human_score":0.6317,
@@ -169,7 +169,7 @@
   },
   {
     "id":"q06_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.95,
     "human_score":0.8586,
@@ -177,7 +177,7 @@
   },
   {
     "id":"q07_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.1,
     "human_score":0.7151,
@@ -185,7 +185,7 @@
   },
   {
     "id":"q07_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.7,
     "human_score":0.7309,
@@ -193,7 +193,7 @@
   },
   {
     "id":"q08_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.7081,
@@ -201,7 +201,7 @@
   },
   {
     "id":"q08_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.869,
@@ -209,7 +209,7 @@
   },
   {
     "id":"q09_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8626,
@@ -217,7 +217,7 @@
   },
   {
     "id":"q09_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.95,
     "human_score":0.7338,
@@ -225,7 +225,7 @@
   },
   {
     "id":"q10_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.6804,
@@ -233,7 +233,7 @@
   },
   {
     "id":"q10_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.85,
     "human_score":0.8012,
@@ -241,7 +241,7 @@
   },
   {
     "id":"q11_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8665,
@@ -249,7 +249,7 @@
   },
   {
     "id":"q11_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.792,
@@ -257,7 +257,7 @@
   },
   {
     "id":"q12_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.6677,
@@ -265,7 +265,7 @@
   },
   {
     "id":"q12_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.7095,
@@ -273,7 +273,7 @@
   },
   {
     "id":"q13_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.85,
     "human_score":0.7644,
@@ -281,7 +281,7 @@
   },
   {
     "id":"q13_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.85,
     "human_score":0.7795,
@@ -289,7 +289,7 @@
   },
   {
     "id":"q14_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.1,
     "human_score":0.834,
@@ -297,7 +297,7 @@
   },
   {
     "id":"q14_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.7,
     "human_score":0.7738,
@@ -305,7 +305,7 @@
   },
   {
     "id":"q15_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8072,
@@ -313,7 +313,7 @@
   },
   {
     "id":"q15_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8022,
@@ -321,7 +321,7 @@
   },
   {
     "id":"q16_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.6977,
@@ -329,7 +329,7 @@
   },
   {
     "id":"q16_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.9359,
@@ -337,7 +337,7 @@
   },
   {
     "id":"q17_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.1,
     "human_score":0.8963,
@@ -345,7 +345,7 @@
   },
   {
     "id":"q17_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.7,
     "human_score":0.6573,
@@ -353,7 +353,7 @@
   },
   {
     "id":"q18_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8635,
@@ -361,7 +361,7 @@
   },
   {
     "id":"q18_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.6984,
@@ -369,7 +369,7 @@
   },
   {
     "id":"q19_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.85,
     "human_score":0.9997,
@@ -377,7 +377,7 @@
   },
   {
     "id":"q19_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.85,
     "human_score":0.701,
@@ -385,7 +385,7 @@
   },
   {
     "id":"q20_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.1,
     "human_score":0.6687,
@@ -393,7 +393,7 @@
   },
   {
     "id":"q20_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"context_relevance",
     "judge_score":0.1,
     "human_score":0.7359,
@@ -401,7 +401,7 @@
   },
   {
     "id":"hc01_bad",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.096,
@@ -409,7 +409,7 @@
   },
   {
     "id":"hc01_good",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.6939,
@@ -417,7 +417,7 @@
   },
   {
     "id":"hc01_mediocre",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.95,
     "human_score":0.4621,
@@ -425,7 +425,7 @@
   },
   {
     "id":"hc02_bad",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.1,
     "human_score":0.2879,
@@ -433,7 +433,7 @@
   },
   {
     "id":"hc02_good",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.9402,
@@ -441,7 +441,7 @@
   },
   {
     "id":"hc02_mediocre",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.5443,
@@ -449,7 +449,7 @@
   },
   {
     "id":"hc03_bad",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.175,
@@ -457,7 +457,7 @@
   },
   {
     "id":"hc03_good",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.9278,
@@ -465,7 +465,7 @@
   },
   {
     "id":"hc03_mediocre",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.6,
     "human_score":0.4377,
@@ -473,7 +473,7 @@
   },
   {
     "id":"hc04_good",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.883,
@@ -481,7 +481,7 @@
   },
   {
     "id":"q01_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8175,
@@ -489,7 +489,7 @@
   },
   {
     "id":"q01_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8993,
@@ -497,7 +497,7 @@
   },
   {
     "id":"q02_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.85,
     "human_score":0.7828,
@@ -505,7 +505,7 @@
   },
   {
     "id":"q02_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.9095,
@@ -513,7 +513,7 @@
   },
   {
     "id":"q03_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.8486,
@@ -521,7 +521,7 @@
   },
   {
     "id":"q03_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.3,
     "human_score":0.8997,
@@ -529,7 +529,7 @@
   },
   {
     "id":"q04_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8554,
@@ -537,7 +537,7 @@
   },
   {
     "id":"q04_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.7334,
@@ -545,7 +545,7 @@
   },
   {
     "id":"q05_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.7989,
@@ -553,7 +553,7 @@
   },
   {
     "id":"q05_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.7807,
@@ -561,7 +561,7 @@
   },
   {
     "id":"q06_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.98,
     "human_score":0.8232,
@@ -569,7 +569,7 @@
   },
   {
     "id":"q06_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.98,
     "human_score":0.9069,
@@ -577,7 +577,7 @@
   },
   {
     "id":"q07_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.793,
@@ -585,7 +585,7 @@
   },
   {
     "id":"q07_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.7279,
@@ -593,7 +593,7 @@
   },
   {
     "id":"q08_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8898,
@@ -601,7 +601,7 @@
   },
   {
     "id":"q08_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8158,
@@ -609,7 +609,7 @@
   },
   {
     "id":"q09_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8253,
@@ -617,7 +617,7 @@
   },
   {
     "id":"q09_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.821,
@@ -625,7 +625,7 @@
   },
   {
     "id":"q10_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.889,
@@ -633,7 +633,7 @@
   },
   {
     "id":"q10_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.95,
     "human_score":0.8885,
@@ -641,7 +641,7 @@
   },
   {
     "id":"q11_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8421,
@@ -649,7 +649,7 @@
   },
   {
     "id":"q11_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.715,
@@ -657,7 +657,7 @@
   },
   {
     "id":"q12_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.7702,
@@ -665,7 +665,7 @@
   },
   {
     "id":"q12_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8197,
@@ -673,7 +673,7 @@
   },
   {
     "id":"q13_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.95,
     "human_score":0.909,
@@ -681,7 +681,7 @@
   },
   {
     "id":"q13_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.95,
     "human_score":0.774,
@@ -689,7 +689,7 @@
   },
   {
     "id":"q14_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.2,
     "human_score":0.6918,
@@ -697,7 +697,7 @@
   },
   {
     "id":"q14_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.7825,
@@ -705,7 +705,7 @@
   },
   {
     "id":"q15_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8076,
@@ -713,7 +713,7 @@
   },
   {
     "id":"q15_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.9781,
@@ -721,7 +721,7 @@
   },
   {
     "id":"q16_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8643,
@@ -729,7 +729,7 @@
   },
   {
     "id":"q16_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.9168,
@@ -737,7 +737,7 @@
   },
   {
     "id":"q17_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.2,
     "human_score":0.7349,
@@ -745,7 +745,7 @@
   },
   {
     "id":"q17_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.6,
     "human_score":0.7988,
@@ -753,7 +753,7 @@
   },
   {
     "id":"q18_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8322,
@@ -761,7 +761,7 @@
   },
   {
     "id":"q18_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8751,
@@ -769,7 +769,7 @@
   },
   {
     "id":"q19_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.95,
     "human_score":1.0,
@@ -777,7 +777,7 @@
   },
   {
     "id":"q19_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.95,
     "human_score":0.6794,
@@ -785,7 +785,7 @@
   },
   {
     "id":"q20_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.7968,
@@ -793,7 +793,7 @@
   },
   {
     "id":"q20_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"groundedness",
     "judge_score":0.6,
     "human_score":0.9153,
@@ -801,7 +801,7 @@
   },
   {
     "id":"hc01_bad",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.325,
@@ -809,7 +809,7 @@
   },
   {
     "id":"hc01_good",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.7888,
@@ -817,7 +817,7 @@
   },
   {
     "id":"hc01_mediocre",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.5183,
@@ -825,7 +825,7 @@
   },
   {
     "id":"hc02_bad",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.3,
     "human_score":0.3278,
@@ -833,7 +833,7 @@
   },
   {
     "id":"hc02_good",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9127,
@@ -841,7 +841,7 @@
   },
   {
     "id":"hc02_mediocre",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.4241,
@@ -849,7 +849,7 @@
   },
   {
     "id":"hc03_bad",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.2315,
@@ -857,7 +857,7 @@
   },
   {
     "id":"hc03_good",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.6,
     "human_score":0.8692,
@@ -865,7 +865,7 @@
   },
   {
     "id":"hc03_mediocre",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.5732,
@@ -873,7 +873,7 @@
   },
   {
     "id":"hc04_good",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9102,
@@ -881,7 +881,7 @@
   },
   {
     "id":"q01_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8441,
@@ -889,7 +889,7 @@
   },
   {
     "id":"q01_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.959,
@@ -897,7 +897,7 @@
   },
   {
     "id":"q02_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.8223,
@@ -905,7 +905,7 @@
   },
   {
     "id":"q02_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.918,
@@ -913,7 +913,7 @@
   },
   {
     "id":"q03_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.3,
     "human_score":0.8882,
@@ -921,7 +921,7 @@
   },
   {
     "id":"q03_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.6,
     "human_score":0.8957,
@@ -929,7 +929,7 @@
   },
   {
     "id":"q04_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9002,
@@ -937,7 +937,7 @@
   },
   {
     "id":"q04_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8576,
@@ -945,7 +945,7 @@
   },
   {
     "id":"q05_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8607,
@@ -953,7 +953,7 @@
   },
   {
     "id":"q05_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9478,
@@ -961,7 +961,7 @@
   },
   {
     "id":"q06_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.95,
     "human_score":0.8914,
@@ -969,7 +969,7 @@
   },
   {
     "id":"q06_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.95,
     "human_score":0.9355,
@@ -977,7 +977,7 @@
   },
   {
     "id":"q07_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.6,
     "human_score":0.9401,
@@ -985,7 +985,7 @@
   },
   {
     "id":"q07_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.6,
     "human_score":0.8007,
@@ -993,7 +993,7 @@
   },
   {
     "id":"q08_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.89,
@@ -1001,7 +1001,7 @@
   },
   {
     "id":"q08_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8911,
@@ -1009,7 +1009,7 @@
   },
   {
     "id":"q09_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.912,
@@ -1017,7 +1017,7 @@
   },
   {
     "id":"q09_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8533,
@@ -1025,7 +1025,7 @@
   },
   {
     "id":"q10_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.8471,
@@ -1033,7 +1033,7 @@
   },
   {
     "id":"q10_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.9113,
@@ -1041,7 +1041,7 @@
   },
   {
     "id":"q11_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8504,
@@ -1049,7 +1049,7 @@
   },
   {
     "id":"q11_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.7787,
@@ -1057,7 +1057,7 @@
   },
   {
     "id":"q12_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.908,
@@ -1065,7 +1065,7 @@
   },
   {
     "id":"q12_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9709,
@@ -1073,7 +1073,7 @@
   },
   {
     "id":"q13_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.8146,
@@ -1081,7 +1081,7 @@
   },
   {
     "id":"q13_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.8563,
@@ -1089,7 +1089,7 @@
   },
   {
     "id":"q14_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.3,
     "human_score":0.9104,
@@ -1097,7 +1097,7 @@
   },
   {
     "id":"q14_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.6,
     "human_score":0.7788,
@@ -1105,7 +1105,7 @@
   },
   {
     "id":"q15_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8963,
@@ -1113,7 +1113,7 @@
   },
   {
     "id":"q15_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8632,
@@ -1121,7 +1121,7 @@
   },
   {
     "id":"q16_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8954,
@@ -1129,7 +1129,7 @@
   },
   {
     "id":"q16_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.905,
@@ -1137,7 +1137,7 @@
   },
   {
     "id":"q17_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.3,
     "human_score":0.8352,
@@ -1145,7 +1145,7 @@
   },
   {
     "id":"q17_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.7836,
@@ -1153,7 +1153,7 @@
   },
   {
     "id":"q18_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.777,
@@ -1161,7 +1161,7 @@
   },
   {
     "id":"q18_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9387,
@@ -1169,7 +1169,7 @@
   },
   {
     "id":"q19_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.909,
@@ -1177,7 +1177,7 @@
   },
   {
     "id":"q19_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.8987,
@@ -1185,7 +1185,7 @@
   },
   {
     "id":"q20_graph",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.6,
     "human_score":0.8372,
@@ -1193,7 +1193,7 @@
   },
   {
     "id":"q20_vector",
-    "model":"gemma3:1b",
+    "model":"gemma3:4b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.891,
@@ -1201,7 +1201,7 @@
   },
   {
     "id":"hc01_bad",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.7,
     "human_score":0.3305,
@@ -1209,7 +1209,7 @@
   },
   {
     "id":"hc01_good",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.8941,
@@ -1217,7 +1217,7 @@
   },
   {
     "id":"hc01_mediocre",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.7,
     "human_score":0.5653,
@@ -1225,7 +1225,7 @@
   },
   {
     "id":"hc02_bad",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.2,
     "human_score":0.2147,
@@ -1233,7 +1233,7 @@
   },
   {
     "id":"hc02_good",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.75,
     "human_score":0.8066,
@@ -1241,7 +1241,7 @@
   },
   {
     "id":"hc02_mediocre",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.3,
     "human_score":0.4469,
@@ -1249,7 +1249,7 @@
   },
   {
     "id":"hc03_bad",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.3378,
@@ -1257,7 +1257,7 @@
   },
   {
     "id":"hc03_good",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.3,
     "human_score":0.6819,
@@ -1265,7 +1265,7 @@
   },
   {
     "id":"hc03_mediocre",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.4486,
@@ -1273,7 +1273,7 @@
   },
   {
     "id":"hc04_good",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.8365,
@@ -1281,7 +1281,7 @@
   },
   {
     "id":"q01_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":1.0,
@@ -1289,7 +1289,7 @@
   },
   {
     "id":"q01_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.7186,
@@ -1297,7 +1297,7 @@
   },
   {
     "id":"q02_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.7886,
@@ -1305,7 +1305,7 @@
   },
   {
     "id":"q02_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.8651,
@@ -1313,7 +1313,7 @@
   },
   {
     "id":"q03_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.2,
     "human_score":0.6834,
@@ -1321,7 +1321,7 @@
   },
   {
     "id":"q03_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.2,
     "human_score":0.7719,
@@ -1329,7 +1329,7 @@
   },
   {
     "id":"q04_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.8679,
@@ -1337,7 +1337,7 @@
   },
   {
     "id":"q04_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.8631,
@@ -1345,7 +1345,7 @@
   },
   {
     "id":"q05_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.2,
     "human_score":0.753,
@@ -1353,7 +1353,7 @@
   },
   {
     "id":"q05_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.2,
     "human_score":0.9495,
@@ -1361,7 +1361,7 @@
   },
   {
     "id":"q06_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.6317,
@@ -1369,7 +1369,7 @@
   },
   {
     "id":"q06_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.4,
     "human_score":0.8586,
@@ -1377,7 +1377,7 @@
   },
   {
     "id":"q07_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.3,
     "human_score":0.7151,
@@ -1385,7 +1385,7 @@
   },
   {
     "id":"q07_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.7309,
@@ -1393,7 +1393,7 @@
   },
   {
     "id":"q08_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.7081,
@@ -1401,7 +1401,7 @@
   },
   {
     "id":"q08_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.869,
@@ -1409,7 +1409,7 @@
   },
   {
     "id":"q09_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.3,
     "human_score":0.8626,
@@ -1417,7 +1417,7 @@
   },
   {
     "id":"q09_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.7338,
@@ -1425,7 +1425,7 @@
   },
   {
     "id":"q10_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.6804,
@@ -1433,7 +1433,7 @@
   },
   {
     "id":"q10_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.6,
     "human_score":0.8012,
@@ -1441,7 +1441,7 @@
   },
   {
     "id":"q11_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.8665,
@@ -1449,7 +1449,7 @@
   },
   {
     "id":"q11_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.792,
@@ -1457,7 +1457,7 @@
   },
   {
     "id":"q12_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.6677,
@@ -1465,7 +1465,7 @@
   },
   {
     "id":"q12_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.25,
     "human_score":0.7095,
@@ -1473,7 +1473,7 @@
   },
   {
     "id":"q13_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.4,
     "human_score":0.7644,
@@ -1481,7 +1481,7 @@
   },
   {
     "id":"q13_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.6,
     "human_score":0.7795,
@@ -1489,7 +1489,7 @@
   },
   {
     "id":"q14_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.3,
     "human_score":0.834,
@@ -1497,7 +1497,7 @@
   },
   {
     "id":"q14_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.7738,
@@ -1505,7 +1505,7 @@
   },
   {
     "id":"q15_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.8072,
@@ -1513,7 +1513,7 @@
   },
   {
     "id":"q15_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.7,
     "human_score":0.8022,
@@ -1521,7 +1521,7 @@
   },
   {
     "id":"q16_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.7,
     "human_score":0.6977,
@@ -1529,7 +1529,7 @@
   },
   {
     "id":"q16_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.9359,
@@ -1537,7 +1537,7 @@
   },
   {
     "id":"q17_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.3,
     "human_score":0.8963,
@@ -1545,7 +1545,7 @@
   },
   {
     "id":"q17_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.6573,
@@ -1553,7 +1553,7 @@
   },
   {
     "id":"q18_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.8635,
@@ -1561,7 +1561,7 @@
   },
   {
     "id":"q18_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.2,
     "human_score":0.6984,
@@ -1569,7 +1569,7 @@
   },
   {
     "id":"q19_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.6,
     "human_score":0.9997,
@@ -1577,7 +1577,7 @@
   },
   {
     "id":"q19_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.3,
     "human_score":0.701,
@@ -1585,7 +1585,7 @@
   },
   {
     "id":"q20_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.0,
     "human_score":0.6687,
@@ -1593,7 +1593,7 @@
   },
   {
     "id":"q20_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"context_relevance",
     "judge_score":0.3,
     "human_score":0.7359,
@@ -1601,7 +1601,7 @@
   },
   {
     "id":"hc01_bad",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.3,
     "human_score":0.096,
@@ -1609,7 +1609,7 @@
   },
   {
     "id":"hc01_good",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.6939,
@@ -1617,7 +1617,7 @@
   },
   {
     "id":"hc01_mediocre",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.4621,
@@ -1625,7 +1625,7 @@
   },
   {
     "id":"hc02_bad",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.1,
     "human_score":0.2879,
@@ -1633,7 +1633,7 @@
   },
   {
     "id":"hc02_good",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.85,
     "human_score":0.9402,
@@ -1641,7 +1641,7 @@
   },
   {
     "id":"hc02_mediocre",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.6,
     "human_score":0.5443,
@@ -1649,7 +1649,7 @@
   },
   {
     "id":"hc03_bad",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.175,
@@ -1657,7 +1657,7 @@
   },
   {
     "id":"hc03_good",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.2,
     "human_score":0.9278,
@@ -1665,7 +1665,7 @@
   },
   {
     "id":"hc03_mediocre",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.2,
     "human_score":0.4377,
@@ -1673,7 +1673,7 @@
   },
   {
     "id":"hc04_good",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.883,
@@ -1681,7 +1681,7 @@
   },
   {
     "id":"q01_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.7,
     "human_score":0.8175,
@@ -1689,7 +1689,7 @@
   },
   {
     "id":"q01_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.8993,
@@ -1697,7 +1697,7 @@
   },
   {
     "id":"q02_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.7828,
@@ -1705,7 +1705,7 @@
   },
   {
     "id":"q02_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.3,
     "human_score":0.9095,
@@ -1713,7 +1713,7 @@
   },
   {
     "id":"q03_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.1,
     "human_score":0.8486,
@@ -1721,7 +1721,7 @@
   },
   {
     "id":"q03_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.8997,
@@ -1729,7 +1729,7 @@
   },
   {
     "id":"q04_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.3,
     "human_score":0.8554,
@@ -1737,7 +1737,7 @@
   },
   {
     "id":"q04_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.2,
     "human_score":0.7334,
@@ -1745,7 +1745,7 @@
   },
   {
     "id":"q05_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.7989,
@@ -1753,7 +1753,7 @@
   },
   {
     "id":"q05_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.5,
     "human_score":0.7807,
@@ -1761,7 +1761,7 @@
   },
   {
     "id":"q06_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.8232,
@@ -1769,7 +1769,7 @@
   },
   {
     "id":"q06_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.9069,
@@ -1777,7 +1777,7 @@
   },
   {
     "id":"q07_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.1,
     "human_score":0.793,
@@ -1785,7 +1785,7 @@
   },
   {
     "id":"q07_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.7,
     "human_score":0.7279,
@@ -1793,7 +1793,7 @@
   },
   {
     "id":"q08_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.8898,
@@ -1801,7 +1801,7 @@
   },
   {
     "id":"q08_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.6,
     "human_score":0.8158,
@@ -1809,7 +1809,7 @@
   },
   {
     "id":"q09_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.5,
     "human_score":0.8253,
@@ -1817,7 +1817,7 @@
   },
   {
     "id":"q09_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.821,
@@ -1825,7 +1825,7 @@
   },
   {
     "id":"q10_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.7,
     "human_score":0.889,
@@ -1833,7 +1833,7 @@
   },
   {
     "id":"q10_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.7,
     "human_score":0.8885,
@@ -1841,7 +1841,7 @@
   },
   {
     "id":"q11_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.8421,
@@ -1849,7 +1849,7 @@
   },
   {
     "id":"q11_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.5,
     "human_score":0.715,
@@ -1857,7 +1857,7 @@
   },
   {
     "id":"q12_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.7702,
@@ -1865,7 +1865,7 @@
   },
   {
     "id":"q12_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.5,
     "human_score":0.8197,
@@ -1873,7 +1873,7 @@
   },
   {
     "id":"q13_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.6,
     "human_score":0.909,
@@ -1881,7 +1881,7 @@
   },
   {
     "id":"q13_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.7,
     "human_score":0.774,
@@ -1889,7 +1889,7 @@
   },
   {
     "id":"q14_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.2,
     "human_score":0.6918,
@@ -1897,7 +1897,7 @@
   },
   {
     "id":"q14_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.7825,
@@ -1905,7 +1905,7 @@
   },
   {
     "id":"q15_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.7,
     "human_score":0.8076,
@@ -1913,7 +1913,7 @@
   },
   {
     "id":"q15_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.9781,
@@ -1921,7 +1921,7 @@
   },
   {
     "id":"q16_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.8643,
@@ -1929,7 +1929,7 @@
   },
   {
     "id":"q16_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.7,
     "human_score":0.9168,
@@ -1937,7 +1937,7 @@
   },
   {
     "id":"q17_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.2,
     "human_score":0.7349,
@@ -1945,7 +1945,7 @@
   },
   {
     "id":"q17_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.7988,
@@ -1953,7 +1953,7 @@
   },
   {
     "id":"q18_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.8322,
@@ -1961,7 +1961,7 @@
   },
   {
     "id":"q18_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.8751,
@@ -1969,7 +1969,7 @@
   },
   {
     "id":"q19_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.7,
     "human_score":1.0,
@@ -1977,7 +1977,7 @@
   },
   {
     "id":"q19_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":0.6794,
@@ -1985,7 +1985,7 @@
   },
   {
     "id":"q20_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.0,
     "human_score":0.7968,
@@ -1993,7 +1993,7 @@
   },
   {
     "id":"q20_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.1,
     "human_score":0.9153,
@@ -2001,7 +2001,7 @@
   },
   {
     "id":"hc01_bad",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.6,
     "human_score":0.325,
@@ -2009,7 +2009,7 @@
   },
   {
     "id":"hc01_good",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.7,
     "human_score":0.7888,
@@ -2017,7 +2017,7 @@
   },
   {
     "id":"hc01_mediocre",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.5183,
@@ -2025,7 +2025,7 @@
   },
   {
     "id":"hc02_bad",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.6,
     "human_score":0.3278,
@@ -2033,7 +2033,7 @@
   },
   {
     "id":"hc02_good",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9127,
@@ -2041,7 +2041,7 @@
   },
   {
     "id":"hc02_mediocre",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.4,
     "human_score":0.4241,
@@ -2049,7 +2049,7 @@
   },
   {
     "id":"hc03_bad",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.2315,
@@ -2057,7 +2057,7 @@
   },
   {
     "id":"hc03_good",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.7,
     "human_score":0.8692,
@@ -2065,7 +2065,7 @@
   },
   {
     "id":"hc03_mediocre",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.5732,
@@ -2073,7 +2073,7 @@
   },
   {
     "id":"hc04_good",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9102,
@@ -2081,7 +2081,7 @@
   },
   {
     "id":"q01_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.8441,
@@ -2089,7 +2089,7 @@
   },
   {
     "id":"q01_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.7,
     "human_score":0.959,
@@ -2097,7 +2097,7 @@
   },
   {
     "id":"q02_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.3,
     "human_score":0.8223,
@@ -2105,7 +2105,7 @@
   },
   {
     "id":"q02_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.918,
@@ -2113,7 +2113,7 @@
   },
   {
     "id":"q03_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.8882,
@@ -2121,7 +2121,7 @@
   },
   {
     "id":"q03_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.5,
     "human_score":0.8957,
@@ -2129,7 +2129,7 @@
   },
   {
     "id":"q04_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.9002,
@@ -2137,7 +2137,7 @@
   },
   {
     "id":"q04_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.3,
     "human_score":0.8576,
@@ -2145,7 +2145,7 @@
   },
   {
     "id":"q05_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.1,
     "human_score":0.8607,
@@ -2153,7 +2153,7 @@
   },
   {
     "id":"q05_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.3,
     "human_score":0.9478,
@@ -2161,7 +2161,7 @@
   },
   {
     "id":"q06_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8914,
@@ -2169,7 +2169,7 @@
   },
   {
     "id":"q06_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.6,
     "human_score":0.9355,
@@ -2177,7 +2177,7 @@
   },
   {
     "id":"q07_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.2,
     "human_score":0.9401,
@@ -2185,7 +2185,7 @@
   },
   {
     "id":"q07_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.3,
     "human_score":0.8007,
@@ -2193,7 +2193,7 @@
   },
   {
     "id":"q08_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.89,
@@ -2201,7 +2201,7 @@
   },
   {
     "id":"q08_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.8911,
@@ -2209,7 +2209,7 @@
   },
   {
     "id":"q09_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.912,
@@ -2217,7 +2217,7 @@
   },
   {
     "id":"q09_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8533,
@@ -2225,7 +2225,7 @@
   },
   {
     "id":"q10_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.3,
     "human_score":0.8471,
@@ -2233,7 +2233,7 @@
   },
   {
     "id":"q10_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.9113,
@@ -2241,7 +2241,7 @@
   },
   {
     "id":"q11_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.7,
     "human_score":0.8504,
@@ -2249,7 +2249,7 @@
   },
   {
     "id":"q11_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.7787,
@@ -2257,7 +2257,7 @@
   },
   {
     "id":"q12_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.2,
     "human_score":0.908,
@@ -2265,7 +2265,7 @@
   },
   {
     "id":"q12_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.75,
     "human_score":0.9709,
@@ -2273,7 +2273,7 @@
   },
   {
     "id":"q13_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.2,
     "human_score":0.8146,
@@ -2281,7 +2281,7 @@
   },
   {
     "id":"q13_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.8563,
@@ -2289,7 +2289,7 @@
   },
   {
     "id":"q14_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.5,
     "human_score":0.9104,
@@ -2297,7 +2297,7 @@
   },
   {
     "id":"q14_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.2,
     "human_score":0.7788,
@@ -2305,7 +2305,7 @@
   },
   {
     "id":"q15_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.8963,
@@ -2313,7 +2313,7 @@
   },
   {
     "id":"q15_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.8632,
@@ -2321,7 +2321,7 @@
   },
   {
     "id":"q16_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.8954,
@@ -2329,7 +2329,7 @@
   },
   {
     "id":"q16_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.2,
     "human_score":0.905,
@@ -2337,7 +2337,7 @@
   },
   {
     "id":"q17_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.4,
     "human_score":0.8352,
@@ -2345,7 +2345,7 @@
   },
   {
     "id":"q17_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.7,
     "human_score":0.7836,
@@ -2353,7 +2353,7 @@
   },
   {
     "id":"q18_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.777,
@@ -2361,7 +2361,7 @@
   },
   {
     "id":"q18_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9387,
@@ -2369,7 +2369,7 @@
   },
   {
     "id":"q19_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.909,
@@ -2377,7 +2377,7 @@
   },
   {
     "id":"q19_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.7,
     "human_score":0.8987,
@@ -2385,7 +2385,7 @@
   },
   {
     "id":"q20_graph",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.0,
     "human_score":0.8372,
@@ -2393,7 +2393,7 @@
   },
   {
     "id":"q20_vector",
-    "model":"llama3.2:1b",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.6,
     "human_score":0.891,
@@ -2401,7 +2401,7 @@
   },
   {
     "id":"hc01_bad",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.3305,
@@ -2409,7 +2409,7 @@
   },
   {
     "id":"hc01_good",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8941,
@@ -2417,7 +2417,7 @@
   },
   {
     "id":"hc01_mediocre",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.5653,
@@ -2425,7 +2425,7 @@
   },
   {
     "id":"hc02_bad",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.2147,
@@ -2433,7 +2433,7 @@
   },
   {
     "id":"hc02_good",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8066,
@@ -2441,7 +2441,7 @@
   },
   {
     "id":"hc02_mediocre",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.4469,
@@ -2449,7 +2449,7 @@
   },
   {
     "id":"hc03_bad",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.3378,
@@ -2457,7 +2457,7 @@
   },
   {
     "id":"hc03_good",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.6,
     "human_score":0.6819,
@@ -2465,7 +2465,7 @@
   },
   {
     "id":"hc03_mediocre",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.4486,
@@ -2473,7 +2473,7 @@
   },
   {
     "id":"hc04_good",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8365,
@@ -2481,7 +2481,7 @@
   },
   {
     "id":"q01_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":1.0,
@@ -2489,7 +2489,7 @@
   },
   {
     "id":"q01_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.9,
     "human_score":0.7186,
@@ -2497,7 +2497,7 @@
   },
   {
     "id":"q02_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.7886,
@@ -2505,7 +2505,7 @@
   },
   {
     "id":"q02_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8651,
@@ -2513,7 +2513,7 @@
   },
   {
     "id":"q03_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.0,
     "human_score":0.6834,
@@ -2521,7 +2521,7 @@
   },
   {
     "id":"q03_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.7719,
@@ -2529,7 +2529,7 @@
   },
   {
     "id":"q04_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8679,
@@ -2537,7 +2537,7 @@
   },
   {
     "id":"q04_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8631,
@@ -2545,7 +2545,7 @@
   },
   {
     "id":"q05_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.753,
@@ -2553,7 +2553,7 @@
   },
   {
     "id":"q05_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.9495,
@@ -2561,7 +2561,7 @@
   },
   {
     "id":"q06_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.6317,
@@ -2569,7 +2569,7 @@
   },
   {
     "id":"q06_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8586,
@@ -2577,7 +2577,7 @@
   },
   {
     "id":"q07_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.1,
     "human_score":0.7151,
@@ -2585,7 +2585,7 @@
   },
   {
     "id":"q07_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.7309,
@@ -2593,7 +2593,7 @@
   },
   {
     "id":"q08_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.7081,
@@ -2601,7 +2601,7 @@
   },
   {
     "id":"q08_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.869,
@@ -2609,7 +2609,7 @@
   },
   {
     "id":"q09_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8626,
@@ -2617,7 +2617,7 @@
   },
   {
     "id":"q09_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.7338,
@@ -2625,7 +2625,7 @@
   },
   {
     "id":"q10_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.6804,
@@ -2633,7 +2633,7 @@
   },
   {
     "id":"q10_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.9,
     "human_score":0.8012,
@@ -2641,7 +2641,7 @@
   },
   {
     "id":"q11_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8665,
@@ -2649,7 +2649,7 @@
   },
   {
     "id":"q11_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.792,
@@ -2657,7 +2657,7 @@
   },
   {
     "id":"q12_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.6677,
@@ -2665,7 +2665,7 @@
   },
   {
     "id":"q12_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.7095,
@@ -2673,7 +2673,7 @@
   },
   {
     "id":"q13_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.9,
     "human_score":0.7644,
@@ -2681,7 +2681,7 @@
   },
   {
     "id":"q13_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.9,
     "human_score":0.7795,
@@ -2689,7 +2689,7 @@
   },
   {
     "id":"q14_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.0,
     "human_score":0.834,
@@ -2697,7 +2697,7 @@
   },
   {
     "id":"q14_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.7738,
@@ -2705,7 +2705,7 @@
   },
   {
     "id":"q15_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8072,
@@ -2713,7 +2713,7 @@
   },
   {
     "id":"q15_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8022,
@@ -2721,7 +2721,7 @@
   },
   {
     "id":"q16_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.6977,
@@ -2729,7 +2729,7 @@
   },
   {
     "id":"q16_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.8,
     "human_score":0.9359,
@@ -2737,7 +2737,7 @@
   },
   {
     "id":"q17_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.5,
     "human_score":0.8963,
@@ -2745,7 +2745,7 @@
   },
   {
     "id":"q17_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.6573,
@@ -2753,7 +2753,7 @@
   },
   {
     "id":"q18_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.8635,
@@ -2761,7 +2761,7 @@
   },
   {
     "id":"q18_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":1.0,
     "human_score":0.6984,
@@ -2769,7 +2769,7 @@
   },
   {
     "id":"q19_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.9,
     "human_score":0.9997,
@@ -2777,7 +2777,7 @@
   },
   {
     "id":"q19_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.9,
     "human_score":0.701,
@@ -2785,7 +2785,7 @@
   },
   {
     "id":"q20_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.0,
     "human_score":0.6687,
@@ -2793,7 +2793,7 @@
   },
   {
     "id":"q20_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"context_relevance",
     "judge_score":0.6,
     "human_score":0.7359,
@@ -2801,7 +2801,7 @@
   },
   {
     "id":"hc01_bad",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.096,
@@ -2809,7 +2809,7 @@
   },
   {
     "id":"hc01_good",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.6939,
@@ -2817,7 +2817,7 @@
   },
   {
     "id":"hc01_mediocre",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.75,
     "human_score":0.4621,
@@ -2825,7 +2825,7 @@
   },
   {
     "id":"hc02_bad",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.5,
     "human_score":0.2879,
@@ -2833,7 +2833,7 @@
   },
   {
     "id":"hc02_good",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.9402,
@@ -2841,7 +2841,7 @@
   },
   {
     "id":"hc02_mediocre",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.5443,
@@ -2849,7 +2849,7 @@
   },
   {
     "id":"hc03_bad",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.175,
@@ -2857,7 +2857,7 @@
   },
   {
     "id":"hc03_good",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.3,
     "human_score":0.9278,
@@ -2865,7 +2865,7 @@
   },
   {
     "id":"hc03_mediocre",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.3,
     "human_score":0.4377,
@@ -2873,7 +2873,7 @@
   },
   {
     "id":"hc04_good",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.883,
@@ -2881,7 +2881,7 @@
   },
   {
     "id":"q01_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8175,
@@ -2889,7 +2889,7 @@
   },
   {
     "id":"q01_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.8993,
@@ -2897,7 +2897,7 @@
   },
   {
     "id":"q02_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.7828,
@@ -2905,7 +2905,7 @@
   },
   {
     "id":"q02_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.9095,
@@ -2913,7 +2913,7 @@
   },
   {
     "id":"q03_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.5,
     "human_score":0.8486,
@@ -2921,7 +2921,7 @@
   },
   {
     "id":"q03_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8997,
@@ -2929,7 +2929,7 @@
   },
   {
     "id":"q04_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8554,
@@ -2937,7 +2937,7 @@
   },
   {
     "id":"q04_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.7334,
@@ -2945,7 +2945,7 @@
   },
   {
     "id":"q05_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.7989,
@@ -2953,7 +2953,7 @@
   },
   {
     "id":"q05_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.7807,
@@ -2961,7 +2961,7 @@
   },
   {
     "id":"q06_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8232,
@@ -2969,7 +2969,7 @@
   },
   {
     "id":"q06_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.9069,
@@ -2977,7 +2977,7 @@
   },
   {
     "id":"q07_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.2,
     "human_score":0.793,
@@ -2985,7 +2985,7 @@
   },
   {
     "id":"q07_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.7,
     "human_score":0.7279,
@@ -2993,7 +2993,7 @@
   },
   {
     "id":"q08_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8898,
@@ -3001,7 +3001,7 @@
   },
   {
     "id":"q08_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8158,
@@ -3009,7 +3009,7 @@
   },
   {
     "id":"q09_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8253,
@@ -3017,7 +3017,7 @@
   },
   {
     "id":"q09_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.821,
@@ -3025,7 +3025,7 @@
   },
   {
     "id":"q10_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.889,
@@ -3033,7 +3033,7 @@
   },
   {
     "id":"q10_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.95,
     "human_score":0.8885,
@@ -3041,7 +3041,7 @@
   },
   {
     "id":"q11_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8421,
@@ -3049,7 +3049,7 @@
   },
   {
     "id":"q11_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.715,
@@ -3057,7 +3057,7 @@
   },
   {
     "id":"q12_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.7702,
@@ -3065,7 +3065,7 @@
   },
   {
     "id":"q12_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.8197,
@@ -3073,7 +3073,7 @@
   },
   {
     "id":"q13_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.909,
@@ -3081,7 +3081,7 @@
   },
   {
     "id":"q13_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.774,
@@ -3089,7 +3089,7 @@
   },
   {
     "id":"q14_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.0,
     "human_score":0.6918,
@@ -3097,7 +3097,7 @@
   },
   {
     "id":"q14_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.9,
     "human_score":0.7825,
@@ -3105,7 +3105,7 @@
   },
   {
     "id":"q15_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8076,
@@ -3113,7 +3113,7 @@
   },
   {
     "id":"q15_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.9781,
@@ -3121,7 +3121,7 @@
   },
   {
     "id":"q16_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.95,
     "human_score":0.8643,
@@ -3129,7 +3129,7 @@
   },
   {
     "id":"q16_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.75,
     "human_score":0.9168,
@@ -3137,7 +3137,7 @@
   },
   {
     "id":"q17_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.3,
     "human_score":0.7349,
@@ -3145,7 +3145,7 @@
   },
   {
     "id":"q17_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.75,
     "human_score":0.7988,
@@ -3153,7 +3153,7 @@
   },
   {
     "id":"q18_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8322,
@@ -3161,7 +3161,7 @@
   },
   {
     "id":"q18_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.8751,
@@ -3169,7 +3169,7 @@
   },
   {
     "id":"q19_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.8,
     "human_score":1.0,
@@ -3177,7 +3177,7 @@
   },
   {
     "id":"q19_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":1.0,
     "human_score":0.6794,
@@ -3185,7 +3185,7 @@
   },
   {
     "id":"q20_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.0,
     "human_score":0.7968,
@@ -3193,7 +3193,7 @@
   },
   {
     "id":"q20_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.5,
     "human_score":0.9153,
@@ -3201,7 +3201,7 @@
   },
   {
     "id":"hc01_bad",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.325,
@@ -3209,7 +3209,7 @@
   },
   {
     "id":"hc01_good",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.7888,
@@ -3217,7 +3217,7 @@
   },
   {
     "id":"hc01_mediocre",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.95,
     "human_score":0.5183,
@@ -3225,7 +3225,7 @@
   },
   {
     "id":"hc02_bad",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.2,
     "human_score":0.3278,
@@ -3233,7 +3233,7 @@
   },
   {
     "id":"hc02_good",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9127,
@@ -3241,7 +3241,7 @@
   },
   {
     "id":"hc02_mediocre",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.4241,
@@ -3249,7 +3249,7 @@
   },
   {
     "id":"hc03_bad",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.2315,
@@ -3257,7 +3257,7 @@
   },
   {
     "id":"hc03_good",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.7,
     "human_score":0.8692,
@@ -3265,7 +3265,7 @@
   },
   {
     "id":"hc03_mediocre",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.7,
     "human_score":0.5732,
@@ -3273,7 +3273,7 @@
   },
   {
     "id":"hc04_good",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9102,
@@ -3281,7 +3281,7 @@
   },
   {
     "id":"q01_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8441,
@@ -3289,7 +3289,7 @@
   },
   {
     "id":"q01_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.959,
@@ -3297,7 +3297,7 @@
   },
   {
     "id":"q02_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8223,
@@ -3305,7 +3305,7 @@
   },
   {
     "id":"q02_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.918,
@@ -3313,7 +3313,7 @@
   },
   {
     "id":"q03_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8882,
@@ -3321,7 +3321,7 @@
   },
   {
     "id":"q03_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8957,
@@ -3329,7 +3329,7 @@
   },
   {
     "id":"q04_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9002,
@@ -3337,7 +3337,7 @@
   },
   {
     "id":"q04_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8576,
@@ -3345,7 +3345,7 @@
   },
   {
     "id":"q05_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8607,
@@ -3353,7 +3353,7 @@
   },
   {
     "id":"q05_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9478,
@@ -3361,7 +3361,7 @@
   },
   {
     "id":"q06_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8914,
@@ -3369,7 +3369,7 @@
   },
   {
     "id":"q06_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9355,
@@ -3377,7 +3377,7 @@
   },
   {
     "id":"q07_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.9401,
@@ -3385,7 +3385,7 @@
   },
   {
     "id":"q07_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.8007,
@@ -3393,7 +3393,7 @@
   },
   {
     "id":"q08_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.89,
@@ -3401,7 +3401,7 @@
   },
   {
     "id":"q08_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8911,
@@ -3409,7 +3409,7 @@
   },
   {
     "id":"q09_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.912,
@@ -3417,7 +3417,7 @@
   },
   {
     "id":"q09_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8533,
@@ -3425,7 +3425,7 @@
   },
   {
     "id":"q10_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8471,
@@ -3433,7 +3433,7 @@
   },
   {
     "id":"q10_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.95,
     "human_score":0.9113,
@@ -3441,7 +3441,7 @@
   },
   {
     "id":"q11_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8504,
@@ -3449,7 +3449,7 @@
   },
   {
     "id":"q11_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.7787,
@@ -3457,7 +3457,7 @@
   },
   {
     "id":"q12_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.95,
     "human_score":0.908,
@@ -3465,7 +3465,7 @@
   },
   {
     "id":"q12_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.9709,
@@ -3473,7 +3473,7 @@
   },
   {
     "id":"q13_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8146,
@@ -3481,7 +3481,7 @@
   },
   {
     "id":"q13_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.8563,
@@ -3489,7 +3489,7 @@
   },
   {
     "id":"q14_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.0,
     "human_score":0.9104,
@@ -3497,7 +3497,7 @@
   },
   {
     "id":"q14_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.7788,
@@ -3505,7 +3505,7 @@
   },
   {
     "id":"q15_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8963,
@@ -3513,7 +3513,7 @@
   },
   {
     "id":"q15_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.8632,
@@ -3521,7 +3521,7 @@
   },
   {
     "id":"q16_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.8954,
@@ -3529,7 +3529,7 @@
   },
   {
     "id":"q16_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.9,
     "human_score":0.905,
@@ -3537,7 +3537,7 @@
   },
   {
     "id":"q17_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.2,
     "human_score":0.8352,
@@ -3545,7 +3545,7 @@
   },
   {
     "id":"q17_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.83,
     "human_score":0.7836,
@@ -3553,7 +3553,7 @@
   },
   {
     "id":"q18_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.777,
@@ -3561,7 +3561,7 @@
   },
   {
     "id":"q18_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.9387,
@@ -3569,7 +3569,7 @@
   },
   {
     "id":"q19_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":1.0,
     "human_score":0.909,
@@ -3577,7 +3577,7 @@
   },
   {
     "id":"q19_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.85,
     "human_score":0.8987,
@@ -3585,7 +3585,7 @@
   },
   {
     "id":"q20_graph",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.0,
     "human_score":0.8372,
@@ -3593,7 +3593,7 @@
   },
   {
     "id":"q20_vector",
-    "model":"qwen2.5:1.5b",
+    "model":"qwen2.5:7b",
     "metric":"answer_relevance",
     "judge_score":0.8,
     "human_score":0.891,

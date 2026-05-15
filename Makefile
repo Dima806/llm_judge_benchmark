@@ -16,9 +16,9 @@ setup: ## First-time setup: install uv, Ollama, pull models, sync deps
 		[ $$i -eq 30 ] && echo "Ollama did not start in time." && exit 1; \
 		sleep 1; \
 	done
-	ollama pull qwen2.5:1.5b
-	ollama pull gemma3:1b
-	ollama pull llama3.2:1b
+	ollama pull gemma3:4b
+	ollama pull qwen2.5:7b
+	ollama pull llama3.1:8b
 	uv run python -m ipykernel install --user --name llm-judge
 	@echo "\n✅ Ready. Run 'make test' to verify."
 
@@ -62,14 +62,14 @@ notebooks: ## Execute all notebooks in order (nb02 requires Ollama)
 		--ExecutePreprocessor.kernel_name=llm-judge \
 		notebooks/05_calibration_and_correction.ipynb
 
-score-1.5b: ## Score all answers with qwen2.5:1.5b (~15 min)
-	uv run python -m src.judging.runner --model qwen2.5:1.5b
+score-1.5b: ## Score all answers with qwen2.5:7b (~15 min)
+	uv run python -m src.judging.runner --model qwen2.5:7b
 
-score-gemma3-1b: ## Score all answers with gemma3:1b (~12 min)
-	uv run python -m src.judging.runner --model gemma3:1b
+score-gemma3-1b: ## Score all answers with gemma3:4b (~12 min)
+	uv run python -m src.judging.runner --model gemma3:4b
 
-score-llama3-1b: ## Score all answers with llama3.2:1b (~10 min)
-	uv run python -m src.judging.runner --model llama3.2:1b
+score-llama3-1b: ## Score all answers with llama3.1:8b (~10 min)
+	uv run python -m src.judging.runner --model llama3.1:8b
 
 score-all: score-1.5b score-gemma3-1b score-llama3-1b ## Score with all 3 judges sequentially (~37 min)
 

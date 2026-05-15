@@ -8,7 +8,7 @@ from pydantic import BaseModel
 
 class Settings(BaseModel):
     ollama_url: str = "http://localhost:11434"
-    models: list[str] = ["qwen2.5:1.5b", "qwen2.5:3b", "gemma3:4b"]
+    models: list[str] = ["qwen2.5:7b", "qwen2.5:7b", "gemma3:4b"]
     score_bucket_low: float = 0.4
     score_bucket_high: float = 0.7
     num_ctx: int = 4096
