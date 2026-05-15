@@ -2,55 +2,55 @@
   {
     "model": "gemma3:4b",
     "metric": "context_relevance",
-    "a": 0.176805,
-    "b": 0.605015
+    "a": 0.337728,
+    "b": 0.444807
   },
   {
     "model": "gemma3:4b",
     "metric": "groundedness",
-    "a": 0.187294,
-    "b": 0.608298
+    "a": 0.249233,
+    "b": 0.567786
   },
   {
     "model": "gemma3:4b",
     "metric": "answer_relevance",
-    "a": 0.074625,
-    "b": 0.754281
+    "a": 0.173288,
+    "b": 0.667799
   },
   {
     "model": "llama3.1:8b",
     "metric": "context_relevance",
-    "a": 0.06699,
-    "b": 0.70998
+    "a": 0.092866,
+    "b": 0.660724
   },
   {
     "model": "llama3.1:8b",
     "metric": "groundedness",
-    "a": 0.154213,
-    "b": 0.681398
+    "a": 0.177142,
+    "b": 0.63392
   },
   {
     "model": "llama3.1:8b",
     "metric": "answer_relevance",
-    "a": -0.020587,
-    "b": 0.832184
+    "a": 0.190231,
+    "b": 0.664819
   },
   {
     "model": "qwen2.5:7b",
     "metric": "context_relevance",
-    "a": 0.148188,
-    "b": 0.619225
+    "a": 0.196426,
+    "b": 0.606191
   },
   {
     "model": "qwen2.5:7b",
     "metric": "groundedness",
-    "a": 0.093177,
-    "b": 0.695537
+    "a": 0.217195,
+    "b": 0.607651
   },
   {
     "model": "qwen2.5:7b",
     "metric": "answer_relevance",
-    "a": 0.148104,
-    "b": 0.688486
+    "a": 0.298501,
+    "b": 0.564584
   }
 ]

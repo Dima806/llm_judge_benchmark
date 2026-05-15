@@ -3,9 +3,9 @@
     "id":"hc01_bad",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.3305,
-    "divergence":0.4695
+    "divergence":0.6695
   },
   {
     "id":"hc01_good",
@@ -19,41 +19,41 @@
     "id":"hc01_mediocre",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.5653,
-    "divergence":0.2347
+    "divergence":0.4347
   },
   {
     "id":"hc02_bad",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.1,
+    "judge_score":0.5,
     "human_score":0.2147,
-    "divergence":0.1147
+    "divergence":0.2853
   },
   {
     "id":"hc02_good",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.8066,
-    "divergence":0.0066
+    "divergence":0.1934
   },
   {
     "id":"hc02_mediocre",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":0.6,
     "human_score":0.4469,
-    "divergence":0.3531
+    "divergence":0.1531
   },
   {
     "id":"hc03_bad",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":0.7,
     "human_score":0.3378,
-    "divergence":0.4622
+    "divergence":0.3622
   },
   {
     "id":"hc03_good",
@@ -67,9 +67,9 @@
     "id":"hc03_mediocre",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.1,
+    "judge_score":0.6,
     "human_score":0.4486,
-    "divergence":0.3486
+    "divergence":0.1514
   },
   {
     "id":"hc04_good",
@@ -99,41 +99,41 @@
     "id":"q02_graph",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":0.7886,
-    "divergence":0.1614
+    "divergence":0.2114
   },
   {
     "id":"q02_vector",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.8651,
-    "divergence":0.0651
+    "divergence":0.1349
   },
   {
     "id":"q03_graph",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.1,
+    "judge_score":0.5,
     "human_score":0.6834,
-    "divergence":0.5834
+    "divergence":0.1834
   },
   {
     "id":"q03_vector",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.7,
+    "judge_score":0.5,
     "human_score":0.7719,
-    "divergence":0.0719
+    "divergence":0.2719
   },
   {
     "id":"q04_graph",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.8679,
-    "divergence":0.0679
+    "divergence":0.1321
   },
   {
     "id":"q04_vector",
@@ -163,25 +163,25 @@
     "id":"q06_graph",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":0.6317,
-    "divergence":0.3183
+    "divergence":0.3683
   },
   {
     "id":"q06_vector",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":0.8586,
-    "divergence":0.0914
+    "divergence":0.1414
   },
   {
     "id":"q07_graph",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.1,
+    "judge_score":0.8,
     "human_score":0.7151,
-    "divergence":0.6151
+    "divergence":0.0849
   },
   {
     "id":"q07_vector",
@@ -219,25 +219,25 @@
     "id":"q09_vector",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":0.7338,
-    "divergence":0.2162
+    "divergence":0.2662
   },
   {
     "id":"q10_graph",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.6804,
-    "divergence":0.1196
+    "divergence":0.3196
   },
   {
     "id":"q10_vector",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.85,
+    "judge_score":1.0,
     "human_score":0.8012,
-    "divergence":0.0488
+    "divergence":0.1988
   },
   {
     "id":"q11_graph",
@@ -267,41 +267,41 @@
     "id":"q12_vector",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.7095,
-    "divergence":0.0905
+    "divergence":0.2905
   },
   {
     "id":"q13_graph",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.85,
+    "judge_score":0.9,
     "human_score":0.7644,
-    "divergence":0.0856
+    "divergence":0.1356
   },
   {
     "id":"q13_vector",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.85,
+    "judge_score":0.9,
     "human_score":0.7795,
-    "divergence":0.0705
+    "divergence":0.1205
   },
   {
     "id":"q14_graph",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.1,
+    "judge_score":0.7,
     "human_score":0.834,
-    "divergence":0.734
+    "divergence":0.134
   },
   {
     "id":"q14_vector",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.7,
+    "judge_score":0.5,
     "human_score":0.7738,
-    "divergence":0.0738
+    "divergence":0.2738
   },
   {
     "id":"q15_graph",
@@ -339,17 +339,17 @@
     "id":"q17_graph",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.1,
+    "judge_score":0.5,
     "human_score":0.8963,
-    "divergence":0.7963
+    "divergence":0.3963
   },
   {
     "id":"q17_vector",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.7,
+    "judge_score":0.6,
     "human_score":0.6573,
-    "divergence":0.0427
+    "divergence":0.0573
   },
   {
     "id":"q18_graph",
@@ -371,41 +371,41 @@
     "id":"q19_graph",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.85,
+    "judge_score":1.0,
     "human_score":0.9997,
-    "divergence":0.1497
+    "divergence":0.0003
   },
   {
     "id":"q19_vector",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.85,
+    "judge_score":1.0,
     "human_score":0.701,
-    "divergence":0.149
+    "divergence":0.299
   },
   {
     "id":"q20_graph",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.1,
+    "judge_score":0.7,
     "human_score":0.6687,
-    "divergence":0.5687
+    "divergence":0.0313
   },
   {
     "id":"q20_vector",
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "judge_score":0.1,
+    "judge_score":0.5,
     "human_score":0.7359,
-    "divergence":0.6359
+    "divergence":0.2359
   },
   {
     "id":"hc01_bad",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":1.0,
+    "judge_score":0.6,
     "human_score":0.096,
-    "divergence":0.904
+    "divergence":0.504
   },
   {
     "id":"hc01_good",
@@ -419,17 +419,17 @@
     "id":"hc01_mediocre",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.95,
+    "judge_score":0.9,
     "human_score":0.4621,
-    "divergence":0.4879
+    "divergence":0.4379
   },
   {
     "id":"hc02_bad",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.1,
+    "judge_score":0.0,
     "human_score":0.2879,
-    "divergence":0.1879
+    "divergence":0.2879
   },
   {
     "id":"hc02_good",
@@ -443,33 +443,33 @@
     "id":"hc02_mediocre",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":0.2,
     "human_score":0.5443,
-    "divergence":0.3557
+    "divergence":0.3443
   },
   {
     "id":"hc03_bad",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":1.0,
+    "judge_score":0.0,
     "human_score":0.175,
-    "divergence":0.825
+    "divergence":0.175
   },
   {
     "id":"hc03_good",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":0.9,
     "human_score":0.9278,
-    "divergence":0.1278
+    "divergence":0.0278
   },
   {
     "id":"hc03_mediocre",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.6,
+    "judge_score":0.0,
     "human_score":0.4377,
-    "divergence":0.1623
+    "divergence":0.4377
   },
   {
     "id":"hc04_good",
@@ -499,9 +499,9 @@
     "id":"q02_graph",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.85,
+    "judge_score":1.0,
     "human_score":0.7828,
-    "divergence":0.0672
+    "divergence":0.2172
   },
   {
     "id":"q02_vector",
@@ -515,17 +515,17 @@
     "id":"q03_graph",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.8486,
-    "divergence":0.0514
+    "divergence":0.1514
   },
   {
     "id":"q03_vector",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.3,
+    "judge_score":0.0,
     "human_score":0.8997,
-    "divergence":0.5997
+    "divergence":0.8997
   },
   {
     "id":"q04_graph",
@@ -563,33 +563,33 @@
     "id":"q06_graph",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.98,
+    "judge_score":1.0,
     "human_score":0.8232,
-    "divergence":0.1568
+    "divergence":0.1768
   },
   {
     "id":"q06_vector",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.98,
+    "judge_score":1.0,
     "human_score":0.9069,
-    "divergence":0.0731
+    "divergence":0.0931
   },
   {
     "id":"q07_graph",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.793,
-    "divergence":0.107
+    "divergence":0.207
   },
   {
     "id":"q07_vector",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":0.6,
     "human_score":0.7279,
-    "divergence":0.0721
+    "divergence":0.1279
   },
   {
     "id":"q08_graph",
@@ -627,17 +627,17 @@
     "id":"q10_graph",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.889,
-    "divergence":0.011
+    "divergence":0.111
   },
   {
     "id":"q10_vector",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":0.8885,
-    "divergence":0.0615
+    "divergence":0.1115
   },
   {
     "id":"q11_graph",
@@ -675,33 +675,33 @@
     "id":"q13_graph",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":0.909,
-    "divergence":0.041
+    "divergence":0.091
   },
   {
     "id":"q13_vector",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":0.774,
-    "divergence":0.176
+    "divergence":0.226
   },
   {
     "id":"q14_graph",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.2,
+    "judge_score":1.0,
     "human_score":0.6918,
-    "divergence":0.4918
+    "divergence":0.3082
   },
   {
     "id":"q14_vector",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":0.0,
     "human_score":0.7825,
-    "divergence":0.0175
+    "divergence":0.7825
   },
   {
     "id":"q15_graph",
@@ -739,17 +739,17 @@
     "id":"q17_graph",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.2,
+    "judge_score":1.0,
     "human_score":0.7349,
-    "divergence":0.5349
+    "divergence":0.2651
   },
   {
     "id":"q17_vector",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.6,
+    "judge_score":0.0,
     "human_score":0.7988,
-    "divergence":0.1988
+    "divergence":0.7988
   },
   {
     "id":"q18_graph",
@@ -771,33 +771,33 @@
     "id":"q19_graph",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":1.0,
-    "divergence":0.05
+    "divergence":0.0
   },
   {
     "id":"q19_vector",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":0.6794,
-    "divergence":0.2706
+    "divergence":0.3206
   },
   {
     "id":"q20_graph",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.7968,
-    "divergence":0.1032
+    "divergence":0.2032
   },
   {
     "id":"q20_vector",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":0.6,
+    "judge_score":0.0,
     "human_score":0.9153,
-    "divergence":0.3153
+    "divergence":0.9153
   },
   {
     "id":"hc01_bad",
@@ -819,17 +819,17 @@
     "id":"hc01_mediocre",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.5183,
-    "divergence":0.3817
+    "divergence":0.4817
   },
   {
     "id":"hc02_bad",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.3,
+    "judge_score":0.0,
     "human_score":0.3278,
-    "divergence":0.0278
+    "divergence":0.3278
   },
   {
     "id":"hc02_good",
@@ -843,9 +843,9 @@
     "id":"hc02_mediocre",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":1.0,
+    "judge_score":0.4,
     "human_score":0.4241,
-    "divergence":0.5759
+    "divergence":0.0241
   },
   {
     "id":"hc03_bad",
@@ -859,17 +859,17 @@
     "id":"hc03_good",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.6,
+    "judge_score":0.9,
     "human_score":0.8692,
-    "divergence":0.2692
+    "divergence":0.0308
   },
   {
     "id":"hc03_mediocre",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":0.3,
     "human_score":0.5732,
-    "divergence":0.2268
+    "divergence":0.2732
   },
   {
     "id":"hc04_good",
@@ -899,9 +899,9 @@
     "id":"q02_graph",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.8223,
-    "divergence":0.0777
+    "divergence":0.1777
   },
   {
     "id":"q02_vector",
@@ -915,17 +915,17 @@
     "id":"q03_graph",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.3,
+    "judge_score":1.0,
     "human_score":0.8882,
-    "divergence":0.5882
+    "divergence":0.1118
   },
   {
     "id":"q03_vector",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.6,
+    "judge_score":0.0,
     "human_score":0.8957,
-    "divergence":0.2957
+    "divergence":0.8957
   },
   {
     "id":"q04_graph",
@@ -963,33 +963,33 @@
     "id":"q06_graph",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":0.8914,
-    "divergence":0.0586
+    "divergence":0.1086
   },
   {
     "id":"q06_vector",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":0.9355,
-    "divergence":0.0145
+    "divergence":0.0645
   },
   {
     "id":"q07_graph",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.6,
+    "judge_score":1.0,
     "human_score":0.9401,
-    "divergence":0.3401
+    "divergence":0.0599
   },
   {
     "id":"q07_vector",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.6,
+    "judge_score":0.8,
     "human_score":0.8007,
-    "divergence":0.2007
+    "divergence":0.0007
   },
   {
     "id":"q08_graph",
@@ -1027,17 +1027,17 @@
     "id":"q10_graph",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.8471,
-    "divergence":0.0529
+    "divergence":0.1529
   },
   {
     "id":"q10_vector",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.9113,
-    "divergence":0.0113
+    "divergence":0.0887
   },
   {
     "id":"q11_graph",
@@ -1075,33 +1075,33 @@
     "id":"q13_graph",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.8146,
-    "divergence":0.0854
+    "divergence":0.1854
   },
   {
     "id":"q13_vector",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.8563,
-    "divergence":0.0437
+    "divergence":0.1437
   },
   {
     "id":"q14_graph",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.3,
+    "judge_score":1.0,
     "human_score":0.9104,
-    "divergence":0.6104
+    "divergence":0.0896
   },
   {
     "id":"q14_vector",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.6,
+    "judge_score":0.0,
     "human_score":0.7788,
-    "divergence":0.1788
+    "divergence":0.7788
   },
   {
     "id":"q15_graph",
@@ -1139,17 +1139,17 @@
     "id":"q17_graph",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.3,
+    "judge_score":1.0,
     "human_score":0.8352,
-    "divergence":0.5352
+    "divergence":0.1648
   },
   {
     "id":"q17_vector",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":0.2,
     "human_score":0.7836,
-    "divergence":0.0164
+    "divergence":0.5836
   },
   {
     "id":"q18_graph",
@@ -1171,137 +1171,137 @@
     "id":"q19_graph",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.909,
-    "divergence":0.009
+    "divergence":0.091
   },
   {
     "id":"q19_vector",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.8987,
-    "divergence":0.0013
+    "divergence":0.1013
   },
   {
     "id":"q20_graph",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.6,
+    "judge_score":1.0,
     "human_score":0.8372,
-    "divergence":0.2372
+    "divergence":0.1628
   },
   {
     "id":"q20_vector",
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":0.0,
     "human_score":0.891,
-    "divergence":0.091
+    "divergence":0.891
   },
   {
     "id":"hc01_bad",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.7,
+    "judge_score":0.9,
     "human_score":0.3305,
-    "divergence":0.3695
+    "divergence":0.5695
   },
   {
     "id":"hc01_good",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":1.0,
     "human_score":0.8941,
-    "divergence":0.3941
+    "divergence":0.1059
   },
   {
     "id":"hc01_mediocre",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.7,
+    "judge_score":0.8,
     "human_score":0.5653,
-    "divergence":0.1347
+    "divergence":0.2347
   },
   {
     "id":"hc02_bad",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.2,
+    "judge_score":1.0,
     "human_score":0.2147,
-    "divergence":0.0147
+    "divergence":0.7853
   },
   {
     "id":"hc02_good",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.75,
+    "judge_score":1.0,
     "human_score":0.8066,
-    "divergence":0.0566
+    "divergence":0.1934
   },
   {
     "id":"hc02_mediocre",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.3,
+    "judge_score":0.8,
     "human_score":0.4469,
-    "divergence":0.1469
+    "divergence":0.3531
   },
   {
     "id":"hc03_bad",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.8,
     "human_score":0.3378,
-    "divergence":0.1622
+    "divergence":0.4622
   },
   {
     "id":"hc03_good",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.3,
+    "judge_score":0.8,
     "human_score":0.6819,
-    "divergence":0.3819
+    "divergence":0.1181
   },
   {
     "id":"hc03_mediocre",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.7,
     "human_score":0.4486,
-    "divergence":0.0514
+    "divergence":0.2514
   },
   {
     "id":"hc04_good",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":1.0,
     "human_score":0.8365,
-    "divergence":0.3365
+    "divergence":0.1635
   },
   {
     "id":"q01_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.8,
     "human_score":1.0,
-    "divergence":0.5
+    "divergence":0.2
   },
   {
     "id":"q01_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.8,
     "human_score":0.7186,
-    "divergence":0.2186
+    "divergence":0.0814
   },
   {
     "id":"q02_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.9,
     "human_score":0.7886,
-    "divergence":0.2886
+    "divergence":0.1114
   },
   {
     "id":"q02_vector",
@@ -1315,137 +1315,137 @@
     "id":"q03_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.2,
+    "judge_score":0.8,
     "human_score":0.6834,
-    "divergence":0.4834
+    "divergence":0.1166
   },
   {
     "id":"q03_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.2,
+    "judge_score":0.8,
     "human_score":0.7719,
-    "divergence":0.5719
+    "divergence":0.0281
   },
   {
     "id":"q04_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.8,
     "human_score":0.8679,
-    "divergence":0.3679
+    "divergence":0.0679
   },
   {
     "id":"q04_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.9,
     "human_score":0.8631,
-    "divergence":0.3631
+    "divergence":0.0369
   },
   {
     "id":"q05_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.2,
+    "judge_score":0.9,
     "human_score":0.753,
-    "divergence":0.553
+    "divergence":0.147
   },
   {
     "id":"q05_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.2,
+    "judge_score":0.8,
     "human_score":0.9495,
-    "divergence":0.7495
+    "divergence":0.1495
   },
   {
     "id":"q06_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":1.0,
     "human_score":0.6317,
-    "divergence":0.1317
+    "divergence":0.3683
   },
   {
     "id":"q06_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.4,
+    "judge_score":1.0,
     "human_score":0.8586,
-    "divergence":0.4586
+    "divergence":0.1414
   },
   {
     "id":"q07_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.3,
+    "judge_score":0.9,
     "human_score":0.7151,
-    "divergence":0.4151
+    "divergence":0.1849
   },
   {
     "id":"q07_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.8,
     "human_score":0.7309,
-    "divergence":0.2309
+    "divergence":0.0691
   },
   {
     "id":"q08_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":1.0,
     "human_score":0.7081,
-    "divergence":0.2081
+    "divergence":0.2919
   },
   {
     "id":"q08_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":1.0,
     "human_score":0.869,
-    "divergence":0.369
+    "divergence":0.131
   },
   {
     "id":"q09_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.3,
+    "judge_score":1.0,
     "human_score":0.8626,
-    "divergence":0.5626
+    "divergence":0.1374
   },
   {
     "id":"q09_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.7338,
-    "divergence":0.0662
+    "divergence":0.2662
   },
   {
     "id":"q10_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.9,
     "human_score":0.6804,
-    "divergence":0.1804
+    "divergence":0.2196
   },
   {
     "id":"q10_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.6,
+    "judge_score":1.0,
     "human_score":0.8012,
-    "divergence":0.2012
+    "divergence":0.1988
   },
   {
     "id":"q11_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.8665,
-    "divergence":0.0665
+    "divergence":0.1335
   },
   {
     "id":"q11_vector",
@@ -1459,153 +1459,153 @@
     "id":"q12_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.8,
     "human_score":0.6677,
-    "divergence":0.1677
+    "divergence":0.1323
   },
   {
     "id":"q12_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.25,
+    "judge_score":0.9,
     "human_score":0.7095,
-    "divergence":0.4595
+    "divergence":0.1905
   },
   {
     "id":"q13_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.4,
+    "judge_score":1.0,
     "human_score":0.7644,
-    "divergence":0.3644
+    "divergence":0.2356
   },
   {
     "id":"q13_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.6,
+    "judge_score":0.7,
     "human_score":0.7795,
-    "divergence":0.1795
+    "divergence":0.0795
   },
   {
     "id":"q14_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.3,
+    "judge_score":1.0,
     "human_score":0.834,
-    "divergence":0.534
+    "divergence":0.166
   },
   {
     "id":"q14_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.8,
     "human_score":0.7738,
-    "divergence":0.2738
+    "divergence":0.0262
   },
   {
     "id":"q15_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":1.0,
     "human_score":0.8072,
-    "divergence":0.3072
+    "divergence":0.1928
   },
   {
     "id":"q15_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.7,
+    "judge_score":1.0,
     "human_score":0.8022,
-    "divergence":0.1022
+    "divergence":0.1978
   },
   {
     "id":"q16_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.7,
+    "judge_score":0.5,
     "human_score":0.6977,
-    "divergence":0.0023
+    "divergence":0.1977
   },
   {
     "id":"q16_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.7,
     "human_score":0.9359,
-    "divergence":0.4359
+    "divergence":0.2359
   },
   {
     "id":"q17_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.3,
+    "judge_score":0.8,
     "human_score":0.8963,
-    "divergence":0.5963
+    "divergence":0.0963
   },
   {
     "id":"q17_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":0.7,
     "human_score":0.6573,
-    "divergence":0.1427
+    "divergence":0.0427
   },
   {
     "id":"q18_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":1.0,
     "human_score":0.8635,
-    "divergence":0.3635
+    "divergence":0.1365
   },
   {
     "id":"q18_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.2,
+    "judge_score":1.0,
     "human_score":0.6984,
-    "divergence":0.4984
+    "divergence":0.3016
   },
   {
     "id":"q19_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.6,
+    "judge_score":0.8,
     "human_score":0.9997,
-    "divergence":0.3997
+    "divergence":0.1997
   },
   {
     "id":"q19_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.3,
+    "judge_score":0.8,
     "human_score":0.701,
-    "divergence":0.401
+    "divergence":0.099
   },
   {
     "id":"q20_graph",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.0,
+    "judge_score":0.5,
     "human_score":0.6687,
-    "divergence":0.6687
+    "divergence":0.1687
   },
   {
     "id":"q20_vector",
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "judge_score":0.3,
+    "judge_score":1.0,
     "human_score":0.7359,
-    "divergence":0.4359
+    "divergence":0.2641
   },
   {
     "id":"hc01_bad",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.3,
+    "judge_score":0.8,
     "human_score":0.096,
-    "divergence":0.204
+    "divergence":0.704
   },
   {
     "id":"hc01_good",
@@ -1619,81 +1619,81 @@
     "id":"hc01_mediocre",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":0.9,
     "human_score":0.4621,
-    "divergence":0.3379
+    "divergence":0.4379
   },
   {
     "id":"hc02_bad",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.1,
+    "judge_score":0.0,
     "human_score":0.2879,
-    "divergence":0.1879
+    "divergence":0.2879
   },
   {
     "id":"hc02_good",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.85,
+    "judge_score":1.0,
     "human_score":0.9402,
-    "divergence":0.0902
+    "divergence":0.0598
   },
   {
     "id":"hc02_mediocre",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.6,
+    "judge_score":0.2,
     "human_score":0.5443,
-    "divergence":0.0557
+    "divergence":0.3443
   },
   {
     "id":"hc03_bad",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":0.9,
     "human_score":0.175,
-    "divergence":0.625
+    "divergence":0.725
   },
   {
     "id":"hc03_good",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.2,
+    "judge_score":1.0,
     "human_score":0.9278,
-    "divergence":0.7278
+    "divergence":0.0722
   },
   {
     "id":"hc03_mediocre",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.2,
+    "judge_score":0.5,
     "human_score":0.4377,
-    "divergence":0.2377
+    "divergence":0.0623
   },
   {
     "id":"hc04_good",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.883,
-    "divergence":0.083
+    "divergence":0.117
   },
   {
     "id":"q01_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.7,
+    "judge_score":0.9,
     "human_score":0.8175,
-    "divergence":0.1175
+    "divergence":0.0825
   },
   {
     "id":"q01_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":0.9,
     "human_score":0.8993,
-    "divergence":0.0993
+    "divergence":0.0007
   },
   {
     "id":"q02_graph",
@@ -1707,57 +1707,57 @@
     "id":"q02_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.3,
+    "judge_score":0.9,
     "human_score":0.9095,
-    "divergence":0.6095
+    "divergence":0.0095
   },
   {
     "id":"q03_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.1,
+    "judge_score":1.0,
     "human_score":0.8486,
-    "divergence":0.7486
+    "divergence":0.1514
   },
   {
     "id":"q03_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":0.6,
     "human_score":0.8997,
-    "divergence":0.0997
+    "divergence":0.2997
   },
   {
     "id":"q04_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.3,
+    "judge_score":1.0,
     "human_score":0.8554,
-    "divergence":0.5554
+    "divergence":0.1446
   },
   {
     "id":"q04_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.2,
+    "judge_score":1.0,
     "human_score":0.7334,
-    "divergence":0.5334
+    "divergence":0.2666
   },
   {
     "id":"q05_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.7989,
-    "divergence":0.0011
+    "divergence":0.2011
   },
   {
     "id":"q05_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.5,
+    "judge_score":0.9,
     "human_score":0.7807,
-    "divergence":0.2807
+    "divergence":0.1193
   },
   {
     "id":"q06_graph",
@@ -1771,57 +1771,57 @@
     "id":"q06_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.9069,
-    "divergence":0.1069
+    "divergence":0.0931
   },
   {
     "id":"q07_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.1,
+    "judge_score":1.0,
     "human_score":0.793,
-    "divergence":0.693
+    "divergence":0.207
   },
   {
     "id":"q07_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.7,
+    "judge_score":0.6,
     "human_score":0.7279,
-    "divergence":0.0279
+    "divergence":0.1279
   },
   {
     "id":"q08_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.8898,
-    "divergence":0.0898
+    "divergence":0.1102
   },
   {
     "id":"q08_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.6,
+    "judge_score":0.5,
     "human_score":0.8158,
-    "divergence":0.2158
+    "divergence":0.3158
   },
   {
     "id":"q09_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.5,
+    "judge_score":0.8,
     "human_score":0.8253,
-    "divergence":0.3253
+    "divergence":0.0253
   },
   {
     "id":"q09_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":0.0,
     "human_score":0.821,
-    "divergence":0.079
+    "divergence":0.821
   },
   {
     "id":"q10_graph",
@@ -1835,169 +1835,169 @@
     "id":"q10_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.7,
+    "judge_score":1.0,
     "human_score":0.8885,
-    "divergence":0.1885
+    "divergence":0.1115
   },
   {
     "id":"q11_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.8421,
-    "divergence":0.0579
+    "divergence":0.1579
   },
   {
     "id":"q11_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.5,
+    "judge_score":0.8,
     "human_score":0.715,
-    "divergence":0.215
+    "divergence":0.085
   },
   {
     "id":"q12_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":0.9,
     "human_score":0.7702,
-    "divergence":0.0298
+    "divergence":0.1298
   },
   {
     "id":"q12_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.5,
+    "judge_score":0.8,
     "human_score":0.8197,
-    "divergence":0.3197
+    "divergence":0.0197
   },
   {
     "id":"q13_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.6,
+    "judge_score":0.9,
     "human_score":0.909,
-    "divergence":0.309
+    "divergence":0.009
   },
   {
     "id":"q13_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.7,
+    "judge_score":0.9,
     "human_score":0.774,
-    "divergence":0.074
+    "divergence":0.126
   },
   {
     "id":"q14_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.2,
+    "judge_score":1.0,
     "human_score":0.6918,
-    "divergence":0.4918
+    "divergence":0.3082
   },
   {
     "id":"q14_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":0.2,
     "human_score":0.7825,
-    "divergence":0.0175
+    "divergence":0.5825
   },
   {
     "id":"q15_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.7,
+    "judge_score":1.0,
     "human_score":0.8076,
-    "divergence":0.1076
+    "divergence":0.1924
   },
   {
     "id":"q15_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":0.8,
     "human_score":0.9781,
-    "divergence":0.0781
+    "divergence":0.1781
   },
   {
     "id":"q16_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.8643,
-    "divergence":0.0643
+    "divergence":0.1357
   },
   {
     "id":"q16_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.7,
+    "judge_score":0.8,
     "human_score":0.9168,
-    "divergence":0.2168
+    "divergence":0.1168
   },
   {
     "id":"q17_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.2,
+    "judge_score":0.0,
     "human_score":0.7349,
-    "divergence":0.5349
+    "divergence":0.7349
   },
   {
     "id":"q17_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":0.3,
     "human_score":0.7988,
-    "divergence":0.1012
+    "divergence":0.4988
   },
   {
     "id":"q18_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.8322,
-    "divergence":0.0322
+    "divergence":0.1678
   },
   {
     "id":"q18_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.8751,
-    "divergence":0.0751
+    "divergence":0.1249
   },
   {
     "id":"q19_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.7,
+    "judge_score":0.9,
     "human_score":1.0,
-    "divergence":0.3
+    "divergence":0.1
   },
   {
     "id":"q19_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.6794,
-    "divergence":0.1206
+    "divergence":0.3206
   },
   {
     "id":"q20_graph",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.0,
+    "judge_score":1.0,
     "human_score":0.7968,
-    "divergence":0.7968
+    "divergence":0.2032
   },
   {
     "id":"q20_vector",
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "judge_score":0.1,
+    "judge_score":0.5,
     "human_score":0.9153,
-    "divergence":0.8153
+    "divergence":0.4153
   },
   {
     "id":"hc01_bad",
@@ -2011,25 +2011,25 @@
     "id":"hc01_good",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.7,
+    "judge_score":0.6,
     "human_score":0.7888,
-    "divergence":0.0888
+    "divergence":0.1888
   },
   {
     "id":"hc01_mediocre",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":0.6,
     "human_score":0.5183,
-    "divergence":0.3817
+    "divergence":0.0817
   },
   {
     "id":"hc02_bad",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.6,
+    "judge_score":0.0,
     "human_score":0.3278,
-    "divergence":0.2722
+    "divergence":0.3278
   },
   {
     "id":"hc02_good",
@@ -2059,17 +2059,17 @@
     "id":"hc03_good",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.7,
+    "judge_score":0.6,
     "human_score":0.8692,
-    "divergence":0.1692
+    "divergence":0.2692
   },
   {
     "id":"hc03_mediocre",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":0.3,
     "human_score":0.5732,
-    "divergence":0.2268
+    "divergence":0.2732
   },
   {
     "id":"hc04_good",
@@ -2083,81 +2083,81 @@
     "id":"q01_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.8441,
-    "divergence":0.0441
+    "divergence":0.1559
   },
   {
     "id":"q01_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.7,
+    "judge_score":1.0,
     "human_score":0.959,
-    "divergence":0.259
+    "divergence":0.041
   },
   {
     "id":"q02_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.3,
+    "judge_score":1.0,
     "human_score":0.8223,
-    "divergence":0.5223
+    "divergence":0.1777
   },
   {
     "id":"q02_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.918,
-    "divergence":0.118
+    "divergence":0.082
   },
   {
     "id":"q03_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.8882,
-    "divergence":0.0882
+    "divergence":0.1118
   },
   {
     "id":"q03_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.5,
+    "judge_score":1.0,
     "human_score":0.8957,
-    "divergence":0.3957
+    "divergence":0.1043
   },
   {
     "id":"q04_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.9002,
-    "divergence":0.1002
+    "divergence":0.0998
   },
   {
     "id":"q04_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.3,
+    "judge_score":1.0,
     "human_score":0.8576,
-    "divergence":0.5576
+    "divergence":0.1424
   },
   {
     "id":"q05_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.1,
+    "judge_score":0.8,
     "human_score":0.8607,
-    "divergence":0.7607
+    "divergence":0.0607
   },
   {
     "id":"q05_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.3,
+    "judge_score":1.0,
     "human_score":0.9478,
-    "divergence":0.6478
+    "divergence":0.0522
   },
   {
     "id":"q06_graph",
@@ -2171,145 +2171,145 @@
     "id":"q06_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.6,
+    "judge_score":1.0,
     "human_score":0.9355,
-    "divergence":0.3355
+    "divergence":0.0645
   },
   {
     "id":"q07_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.2,
+    "judge_score":1.0,
     "human_score":0.9401,
-    "divergence":0.7401
+    "divergence":0.0599
   },
   {
     "id":"q07_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.3,
+    "judge_score":0.4,
     "human_score":0.8007,
-    "divergence":0.5007
+    "divergence":0.4007
   },
   {
     "id":"q08_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.89,
-    "divergence":0.01
+    "divergence":0.11
   },
   {
     "id":"q08_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.8911,
-    "divergence":0.0911
+    "divergence":0.1089
   },
   {
     "id":"q09_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":1.0,
+    "judge_score":0.5,
     "human_score":0.912,
-    "divergence":0.088
+    "divergence":0.412
   },
   {
     "id":"q09_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":1.0,
+    "judge_score":0.0,
     "human_score":0.8533,
-    "divergence":0.1467
+    "divergence":0.8533
   },
   {
     "id":"q10_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.3,
+    "judge_score":0.9,
     "human_score":0.8471,
-    "divergence":0.5471
+    "divergence":0.0529
   },
   {
     "id":"q10_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.9113,
-    "divergence":0.0113
+    "divergence":0.0887
   },
   {
     "id":"q11_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.7,
+    "judge_score":1.0,
     "human_score":0.8504,
-    "divergence":0.1504
+    "divergence":0.1496
   },
   {
     "id":"q11_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.7787,
-    "divergence":0.0213
+    "divergence":0.2213
   },
   {
     "id":"q12_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.2,
+    "judge_score":0.5,
     "human_score":0.908,
-    "divergence":0.708
+    "divergence":0.408
   },
   {
     "id":"q12_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.75,
+    "judge_score":1.0,
     "human_score":0.9709,
-    "divergence":0.2209
+    "divergence":0.0291
   },
   {
     "id":"q13_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.2,
+    "judge_score":1.0,
     "human_score":0.8146,
-    "divergence":0.6146
+    "divergence":0.1854
   },
   {
     "id":"q13_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.8563,
-    "divergence":0.0437
+    "divergence":0.1437
   },
   {
     "id":"q14_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.5,
+    "judge_score":0.0,
     "human_score":0.9104,
-    "divergence":0.4104
+    "divergence":0.9104
   },
   {
     "id":"q14_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.2,
+    "judge_score":1.0,
     "human_score":0.7788,
-    "divergence":0.5788
+    "divergence":0.2212
   },
   {
     "id":"q15_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.8963,
-    "divergence":0.0963
+    "divergence":0.1037
   },
   {
     "id":"q15_vector",
@@ -2323,33 +2323,33 @@
     "id":"q16_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.8954,
-    "divergence":0.0046
+    "divergence":0.1046
   },
   {
     "id":"q16_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.2,
+    "judge_score":1.0,
     "human_score":0.905,
-    "divergence":0.705
+    "divergence":0.095
   },
   {
     "id":"q17_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.4,
+    "judge_score":1.0,
     "human_score":0.8352,
-    "divergence":0.4352
+    "divergence":0.1648
   },
   {
     "id":"q17_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.7,
+    "judge_score":1.0,
     "human_score":0.7836,
-    "divergence":0.0836
+    "divergence":0.2164
   },
   {
     "id":"q18_graph",
@@ -2371,17 +2371,17 @@
     "id":"q19_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":1.0,
     "human_score":0.909,
-    "divergence":0.109
+    "divergence":0.091
   },
   {
     "id":"q19_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.7,
+    "judge_score":1.0,
     "human_score":0.8987,
-    "divergence":0.1987
+    "divergence":0.1013
   },
   {
     "id":"q20_graph",
@@ -2395,9 +2395,9 @@
     "id":"q20_vector",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "judge_score":0.6,
+    "judge_score":0.5,
     "human_score":0.891,
-    "divergence":0.291
+    "divergence":0.391
   },
   {
     "id":"hc01_bad",
@@ -2419,25 +2419,25 @@
     "id":"hc01_mediocre",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":0.9,
     "human_score":0.5653,
-    "divergence":0.2347
+    "divergence":0.3347
   },
   {
     "id":"hc02_bad",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":0.0,
     "human_score":0.2147,
-    "divergence":0.5853
+    "divergence":0.2147
   },
   {
     "id":"hc02_good",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":1.0,
+    "judge_score":0.8,
     "human_score":0.8066,
-    "divergence":0.1934
+    "divergence":0.0066
   },
   {
     "id":"hc02_mediocre",
@@ -2451,25 +2451,25 @@
     "id":"hc03_bad",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":0.3,
     "human_score":0.3378,
-    "divergence":0.4622
+    "divergence":0.0378
   },
   {
     "id":"hc03_good",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.6,
+    "judge_score":0.3,
     "human_score":0.6819,
-    "divergence":0.0819
+    "divergence":0.3819
   },
   {
     "id":"hc03_mediocre",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.3,
     "human_score":0.4486,
-    "divergence":0.0514
+    "divergence":0.1486
   },
   {
     "id":"hc04_good",
@@ -2491,57 +2491,57 @@
     "id":"q01_vector",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.7186,
-    "divergence":0.1814
+    "divergence":0.2814
   },
   {
     "id":"q02_graph",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":1.0,
+    "judge_score":0.5,
     "human_score":0.7886,
-    "divergence":0.2114
+    "divergence":0.2886
   },
   {
     "id":"q02_vector",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":1.0,
+    "judge_score":0.5,
     "human_score":0.8651,
-    "divergence":0.1349
+    "divergence":0.3651
   },
   {
     "id":"q03_graph",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.0,
+    "judge_score":0.6,
     "human_score":0.6834,
-    "divergence":0.6834
+    "divergence":0.0834
   },
   {
     "id":"q03_vector",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":1.0,
+    "judge_score":0.1,
     "human_score":0.7719,
-    "divergence":0.2281
+    "divergence":0.6719
   },
   {
     "id":"q04_graph",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":1.0,
+    "judge_score":0.9,
     "human_score":0.8679,
-    "divergence":0.1321
+    "divergence":0.0321
   },
   {
     "id":"q04_vector",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":1.0,
+    "judge_score":0.9,
     "human_score":0.8631,
-    "divergence":0.1369
+    "divergence":0.0369
   },
   {
     "id":"q05_graph",
@@ -2563,33 +2563,33 @@
     "id":"q06_graph",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":1.0,
+    "judge_score":0.8,
     "human_score":0.6317,
-    "divergence":0.3683
+    "divergence":0.1683
   },
   {
     "id":"q06_vector",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":1.0,
+    "judge_score":0.8,
     "human_score":0.8586,
-    "divergence":0.1414
+    "divergence":0.0586
   },
   {
     "id":"q07_graph",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.1,
+    "judge_score":0.5,
     "human_score":0.7151,
-    "divergence":0.6151
+    "divergence":0.2151
   },
   {
     "id":"q07_vector",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":0.5,
     "human_score":0.7309,
-    "divergence":0.0691
+    "divergence":0.2309
   },
   {
     "id":"q08_graph",
@@ -2611,9 +2611,9 @@
     "id":"q09_graph",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":1.0,
+    "judge_score":0.8,
     "human_score":0.8626,
-    "divergence":0.1374
+    "divergence":0.0626
   },
   {
     "id":"q09_vector",
@@ -2675,41 +2675,41 @@
     "id":"q13_graph",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.9,
+    "judge_score":0.7,
     "human_score":0.7644,
-    "divergence":0.1356
+    "divergence":0.0644
   },
   {
     "id":"q13_vector",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.9,
+    "judge_score":0.6,
     "human_score":0.7795,
-    "divergence":0.1205
+    "divergence":0.1795
   },
   {
     "id":"q14_graph",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.0,
+    "judge_score":0.1,
     "human_score":0.834,
-    "divergence":0.834
+    "divergence":0.734
   },
   {
     "id":"q14_vector",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.8,
+    "judge_score":0.2,
     "human_score":0.7738,
-    "divergence":0.0262
+    "divergence":0.5738
   },
   {
     "id":"q15_graph",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":1.0,
+    "judge_score":0.8,
     "human_score":0.8072,
-    "divergence":0.1928
+    "divergence":0.0072
   },
   {
     "id":"q15_vector",
@@ -2739,17 +2739,17 @@
     "id":"q17_graph",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.5,
+    "judge_score":0.3,
     "human_score":0.8963,
-    "divergence":0.3963
+    "divergence":0.5963
   },
   {
     "id":"q17_vector",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":1.0,
+    "judge_score":0.3,
     "human_score":0.6573,
-    "divergence":0.3427
+    "divergence":0.3573
   },
   {
     "id":"q18_graph",
@@ -2771,17 +2771,17 @@
     "id":"q19_graph",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.9,
+    "judge_score":0.8,
     "human_score":0.9997,
-    "divergence":0.0997
+    "divergence":0.1997
   },
   {
     "id":"q19_vector",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.9,
+    "judge_score":0.7,
     "human_score":0.701,
-    "divergence":0.199
+    "divergence":0.001
   },
   {
     "id":"q20_graph",
@@ -2795,17 +2795,17 @@
     "id":"q20_vector",
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "judge_score":0.6,
+    "judge_score":0.0,
     "human_score":0.7359,
-    "divergence":0.1359
+    "divergence":0.7359
   },
   {
     "id":"hc01_bad",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":0.3,
     "human_score":0.096,
-    "divergence":0.804
+    "divergence":0.204
   },
   {
     "id":"hc01_good",
@@ -2819,17 +2819,17 @@
     "id":"hc01_mediocre",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.75,
+    "judge_score":0.8,
     "human_score":0.4621,
-    "divergence":0.2879
+    "divergence":0.3379
   },
   {
     "id":"hc02_bad",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.5,
+    "judge_score":0.0,
     "human_score":0.2879,
-    "divergence":0.2121
+    "divergence":0.2879
   },
   {
     "id":"hc02_good",
@@ -2843,33 +2843,33 @@
     "id":"hc02_mediocre",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":1.0,
+    "judge_score":0.3,
     "human_score":0.5443,
-    "divergence":0.4557
+    "divergence":0.2443
   },
   {
     "id":"hc03_bad",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":1.0,
+    "judge_score":0.6,
     "human_score":0.175,
-    "divergence":0.825
+    "divergence":0.425
   },
   {
     "id":"hc03_good",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.3,
+    "judge_score":0.8,
     "human_score":0.9278,
-    "divergence":0.6278
+    "divergence":0.1278
   },
   {
     "id":"hc03_mediocre",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.3,
+    "judge_score":0.5,
     "human_score":0.4377,
-    "divergence":0.1377
+    "divergence":0.0623
   },
   {
     "id":"hc04_good",
@@ -2891,41 +2891,41 @@
     "id":"q01_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.8993,
-    "divergence":0.0007
+    "divergence":0.1007
   },
   {
     "id":"q02_graph",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":1.0,
+    "judge_score":0.8,
     "human_score":0.7828,
-    "divergence":0.2172
+    "divergence":0.0172
   },
   {
     "id":"q02_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":1.0,
+    "judge_score":0.8,
     "human_score":0.9095,
-    "divergence":0.0905
+    "divergence":0.1095
   },
   {
     "id":"q03_graph",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.5,
+    "judge_score":0.8,
     "human_score":0.8486,
-    "divergence":0.3486
+    "divergence":0.0486
   },
   {
     "id":"q03_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":1.0,
+    "judge_score":0.1,
     "human_score":0.8997,
-    "divergence":0.1003
+    "divergence":0.7997
   },
   {
     "id":"q04_graph",
@@ -2963,33 +2963,33 @@
     "id":"q06_graph",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":1.0,
+    "judge_score":0.9,
     "human_score":0.8232,
-    "divergence":0.1768
+    "divergence":0.0768
   },
   {
     "id":"q06_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":1.0,
+    "judge_score":0.9,
     "human_score":0.9069,
-    "divergence":0.0931
+    "divergence":0.0069
   },
   {
     "id":"q07_graph",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.2,
+    "judge_score":0.8,
     "human_score":0.793,
-    "divergence":0.593
+    "divergence":0.007
   },
   {
     "id":"q07_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.7,
+    "judge_score":0.6,
     "human_score":0.7279,
-    "divergence":0.0279
+    "divergence":0.1279
   },
   {
     "id":"q08_graph",
@@ -3035,9 +3035,9 @@
     "id":"q10_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":0.8885,
-    "divergence":0.0615
+    "divergence":0.1115
   },
   {
     "id":"q11_graph",
@@ -3059,57 +3059,57 @@
     "id":"q12_graph",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.7702,
-    "divergence":0.1298
+    "divergence":0.2298
   },
   {
     "id":"q12_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.8197,
-    "divergence":0.0803
+    "divergence":0.1803
   },
   {
     "id":"q13_graph",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":0.8,
     "human_score":0.909,
-    "divergence":0.009
+    "divergence":0.109
   },
   {
     "id":"q13_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":1.0,
+    "judge_score":0.7,
     "human_score":0.774,
-    "divergence":0.226
+    "divergence":0.074
   },
   {
     "id":"q14_graph",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.0,
+    "judge_score":0.8,
     "human_score":0.6918,
-    "divergence":0.6918
+    "divergence":0.1082
   },
   {
     "id":"q14_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.9,
+    "judge_score":0.1,
     "human_score":0.7825,
-    "divergence":0.1175
+    "divergence":0.6825
   },
   {
     "id":"q15_graph",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":1.0,
+    "judge_score":0.9,
     "human_score":0.8076,
-    "divergence":0.1924
+    "divergence":0.0924
   },
   {
     "id":"q15_vector",
@@ -3123,33 +3123,33 @@
     "id":"q16_graph",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.95,
+    "judge_score":0.9,
     "human_score":0.8643,
-    "divergence":0.0857
+    "divergence":0.0357
   },
   {
     "id":"q16_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.75,
+    "judge_score":0.9,
     "human_score":0.9168,
-    "divergence":0.1668
+    "divergence":0.0168
   },
   {
     "id":"q17_graph",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.3,
+    "judge_score":0.1,
     "human_score":0.7349,
-    "divergence":0.4349
+    "divergence":0.6349
   },
   {
     "id":"q17_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.75,
+    "judge_score":0.1,
     "human_score":0.7988,
-    "divergence":0.0488
+    "divergence":0.6988
   },
   {
     "id":"q18_graph",
@@ -3171,17 +3171,17 @@
     "id":"q19_graph",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.8,
+    "judge_score":0.9,
     "human_score":1.0,
-    "divergence":0.2
+    "divergence":0.1
   },
   {
     "id":"q19_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":1.0,
+    "judge_score":0.9,
     "human_score":0.6794,
-    "divergence":0.3206
+    "divergence":0.2206
   },
   {
     "id":"q20_graph",
@@ -3195,17 +3195,17 @@
     "id":"q20_vector",
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "judge_score":0.5,
+    "judge_score":0.0,
     "human_score":0.9153,
-    "divergence":0.4153
+    "divergence":0.9153
   },
   {
     "id":"hc01_bad",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":0.7,
     "human_score":0.325,
-    "divergence":0.575
+    "divergence":0.375
   },
   {
     "id":"hc01_good",
@@ -3219,17 +3219,17 @@
     "id":"hc01_mediocre",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.95,
+    "judge_score":0.7,
     "human_score":0.5183,
-    "divergence":0.4317
+    "divergence":0.1817
   },
   {
     "id":"hc02_bad",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.2,
+    "judge_score":0.0,
     "human_score":0.3278,
-    "divergence":0.1278
+    "divergence":0.3278
   },
   {
     "id":"hc02_good",
@@ -3243,25 +3243,25 @@
     "id":"hc02_mediocre",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":0.6,
     "human_score":0.4241,
-    "divergence":0.3759
+    "divergence":0.1759
   },
   {
     "id":"hc03_bad",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":0.7,
     "human_score":0.2315,
-    "divergence":0.6685
+    "divergence":0.4685
   },
   {
     "id":"hc03_good",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.7,
+    "judge_score":0.9,
     "human_score":0.8692,
-    "divergence":0.1692
+    "divergence":0.0308
   },
   {
     "id":"hc03_mediocre",
@@ -3299,17 +3299,17 @@
     "id":"q02_graph",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":1.0,
+    "judge_score":0.9,
     "human_score":0.8223,
-    "divergence":0.1777
+    "divergence":0.0777
   },
   {
     "id":"q02_vector",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":1.0,
+    "judge_score":0.9,
     "human_score":0.918,
-    "divergence":0.082
+    "divergence":0.018
   },
   {
     "id":"q03_graph",
@@ -3323,9 +3323,9 @@
     "id":"q03_vector",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":1.0,
+    "judge_score":0.1,
     "human_score":0.8957,
-    "divergence":0.1043
+    "divergence":0.7957
   },
   {
     "id":"q04_graph",
@@ -3371,25 +3371,25 @@
     "id":"q06_vector",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":1.0,
+    "judge_score":0.9,
     "human_score":0.9355,
-    "divergence":0.0645
+    "divergence":0.0355
   },
   {
     "id":"q07_graph",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":0.9,
     "human_score":0.9401,
-    "divergence":0.1401
+    "divergence":0.0401
   },
   {
     "id":"q07_vector",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":0.7,
     "human_score":0.8007,
-    "divergence":0.0993
+    "divergence":0.1007
   },
   {
     "id":"q08_graph",
@@ -3435,9 +3435,9 @@
     "id":"q10_vector",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.95,
+    "judge_score":1.0,
     "human_score":0.9113,
-    "divergence":0.0387
+    "divergence":0.0887
   },
   {
     "id":"q11_graph",
@@ -3459,9 +3459,9 @@
     "id":"q12_graph",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.95,
+    "judge_score":0.9,
     "human_score":0.908,
-    "divergence":0.042
+    "divergence":0.008
   },
   {
     "id":"q12_vector",
@@ -3475,33 +3475,33 @@
     "id":"q13_graph",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":1.0,
+    "judge_score":0.9,
     "human_score":0.8146,
-    "divergence":0.1854
+    "divergence":0.0854
   },
   {
     "id":"q13_vector",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":0.8,
     "human_score":0.8563,
-    "divergence":0.0437
+    "divergence":0.0563
   },
   {
     "id":"q14_graph",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.0,
+    "judge_score":1.0,
     "human_score":0.9104,
-    "divergence":0.9104
+    "divergence":0.0896
   },
   {
     "id":"q14_vector",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":1.0,
+    "judge_score":0.3,
     "human_score":0.7788,
-    "divergence":0.2212
+    "divergence":0.4788
   },
   {
     "id":"q15_graph",
@@ -3523,9 +3523,9 @@
     "id":"q16_graph",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.9,
+    "judge_score":1.0,
     "human_score":0.8954,
-    "divergence":0.0046
+    "divergence":0.1046
   },
   {
     "id":"q16_vector",
@@ -3539,17 +3539,17 @@
     "id":"q17_graph",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.2,
+    "judge_score":0.8,
     "human_score":0.8352,
-    "divergence":0.6352
+    "divergence":0.0352
   },
   {
     "id":"q17_vector",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.83,
+    "judge_score":0.6,
     "human_score":0.7836,
-    "divergence":0.0464
+    "divergence":0.1836
   },
   {
     "id":"q18_graph",
@@ -3571,32 +3571,32 @@
     "id":"q19_graph",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":1.0,
+    "judge_score":0.9,
     "human_score":0.909,
-    "divergence":0.091
+    "divergence":0.009
   },
   {
     "id":"q19_vector",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.85,
+    "judge_score":0.9,
     "human_score":0.8987,
-    "divergence":0.0487
+    "divergence":0.0013
   },
   {
     "id":"q20_graph",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.0,
+    "judge_score":1.0,
     "human_score":0.8372,
-    "divergence":0.8372
+    "divergence":0.1628
   },
   {
     "id":"q20_vector",
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "judge_score":0.8,
+    "judge_score":0.0,
     "human_score":0.891,
-    "divergence":0.091
+    "divergence":0.891
   }
 ]

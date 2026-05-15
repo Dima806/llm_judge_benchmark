@@ -1,19 +1,19 @@
 {
   "models": {
     "gemma3:4b": {
-      "mean_divergence": 0.2048,
-      "inflation_rate": 0.7533,
-      "large_disagreement_rate": 0.34
+      "mean_divergence": 0.2156,
+      "inflation_rate": 0.8133,
+      "large_disagreement_rate": 0.3667
     },
     "llama3.1:8b": {
-      "mean_divergence": 0.2844,
-      "inflation_rate": 0.2467,
-      "large_disagreement_rate": 0.5467
+      "mean_divergence": 0.2073,
+      "inflation_rate": 0.7133,
+      "large_disagreement_rate": 0.3333
     },
     "qwen2.5:7b": {
-      "mean_divergence": 0.2172,
-      "inflation_rate": 0.78,
-      "large_disagreement_rate": 0.3333
+      "mean_divergence": 0.2009,
+      "inflation_rate": 0.6133,
+      "large_disagreement_rate": 0.3267
     }
   }
 }

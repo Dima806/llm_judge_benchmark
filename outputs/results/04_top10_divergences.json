@@ -1,7 +1,25 @@
 [
   {
-    "id":"q14_graph",
+    "id":"q20_vector",
+    "model":"gemma3:4b",
+    "metric":"groundedness",
+    "judge_score":0.0,
+    "human_score":0.9153,
+    "divergence":0.9153,
+    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+  },
+  {
+    "id":"q20_vector",
     "model":"qwen2.5:7b",
+    "metric":"groundedness",
+    "judge_score":0.0,
+    "human_score":0.9153,
+    "divergence":0.9153,
+    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+  },
+  {
+    "id":"q14_graph",
+    "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.0,
     "human_score":0.9104,
@@ -9,84 +27,66 @@
     "question":"Has NordBank issued any green bonds?"
   },
   {
-    "id":"hc01_bad",
+    "id":"q03_vector",
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "judge_score":1.0,
-    "human_score":0.096,
-    "divergence":0.904,
-    "question":"What is NordBank's CET1 ratio?"
-  },
-  {
-    "id":"q20_graph",
-    "model":"llama3.1:8b",
-    "metric":"answer_relevance",
     "judge_score":0.0,
-    "human_score":0.8372,
-    "divergence":0.8372,
-    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+    "human_score":0.8997,
+    "divergence":0.8997,
+    "question":"Did NordBank receive any regulatory fines in 2023?"
   },
   {
-    "id":"q20_graph",
-    "model":"qwen2.5:7b",
-    "metric":"answer_relevance",
-    "judge_score":0.0,
-    "human_score":0.8372,
-    "divergence":0.8372,
-    "question":"What cybersecurity incidents did NordBank experience in 2024?"
-  },
-  {
-    "id":"q14_graph",
-    "model":"qwen2.5:7b",
-    "metric":"context_relevance",
-    "judge_score":0.0,
-    "human_score":0.834,
-    "divergence":0.834,
-    "question":"Has NordBank issued any green bonds?"
-  },
-  {
-    "id":"hc03_bad",
+    "id":"q03_vector",
     "model":"gemma3:4b",
-    "metric":"groundedness",
-    "judge_score":1.0,
-    "human_score":0.175,
-    "divergence":0.825,
-    "question":"Has NordBank acquired any companies in 2024?"
-  },
-  {
-    "id":"hc03_bad",
-    "model":"qwen2.5:7b",
-    "metric":"groundedness",
-    "judge_score":1.0,
-    "human_score":0.175,
-    "divergence":0.825,
-    "question":"Has NordBank acquired any companies in 2024?"
+    "metric":"answer_relevance",
+    "judge_score":0.0,
+    "human_score":0.8957,
+    "divergence":0.8957,
+    "question":"Did NordBank receive any regulatory fines in 2023?"
   },
   {
     "id":"q20_vector",
-    "model":"llama3.1:8b",
-    "metric":"groundedness",
-    "judge_score":0.1,
-    "human_score":0.9153,
-    "divergence":0.8153,
+    "model":"gemma3:4b",
+    "metric":"answer_relevance",
+    "judge_score":0.0,
+    "human_score":0.891,
+    "divergence":0.891,
     "question":"What cybersecurity incidents did NordBank experience in 2024?"
   },
   {
-    "id":"hc01_bad",
+    "id":"q20_vector",
     "model":"qwen2.5:7b",
-    "metric":"groundedness",
-    "judge_score":0.9,
-    "human_score":0.096,
-    "divergence":0.804,
-    "question":"What is NordBank's CET1 ratio?"
+    "metric":"answer_relevance",
+    "judge_score":0.0,
+    "human_score":0.891,
+    "divergence":0.891,
+    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+  },
+  {
+    "id":"q09_vector",
+    "model":"llama3.1:8b",
+    "metric":"answer_relevance",
+    "judge_score":0.0,
+    "human_score":0.8533,
+    "divergence":0.8533,
+    "question":"What rating did Moody's assign to NordBank's long-term debt?"
   },
   {
     "id":"q20_graph",
     "model":"llama3.1:8b",
+    "metric":"answer_relevance",
+    "judge_score":0.0,
+    "human_score":0.8372,
+    "divergence":0.8372,
+    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+  },
+  {
+    "id":"q09_vector",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.0,
-    "human_score":0.7968,
-    "divergence":0.7968,
-    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+    "human_score":0.821,
+    "divergence":0.821,
+    "question":"What rating did Moody's assign to NordBank's long-term debt?"
   }
 ]
