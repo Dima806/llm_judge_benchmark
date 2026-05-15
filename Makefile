@@ -56,7 +56,7 @@ notebooks: ## Execute all notebooks in order (nb02 requires Ollama)
 	uv run jupyter nbconvert --to notebook --execute --inplace \
 		--ExecutePreprocessor.timeout=3600 \
 		--ExecutePreprocessor.kernel_name=llm-judge \
-		notebooks/04_human_vs_model.ipynb
+		notebooks/04_consensus_vs_individual.ipynb
 	uv run jupyter nbconvert --to notebook --execute --inplace \
 		--ExecutePreprocessor.timeout=3600 \
 		--ExecutePreprocessor.kernel_name=llm-judge \

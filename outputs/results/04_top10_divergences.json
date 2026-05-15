@@ -1,92 +1,92 @@
 [
   {
-    "id":"q20_vector",
-    "model":"gemma3:4b",
+    "id":"q09_vector",
+    "model":"llama3.1:8b",
     "metric":"groundedness",
     "judge_score":0.0,
-    "human_score":0.9153,
-    "divergence":0.9153,
-    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+    "ensemble_score":0.6666666667,
+    "divergence":0.6666666667,
+    "question":"What rating did Moody's assign to NordBank's long-term debt?"
   },
   {
-    "id":"q20_vector",
-    "model":"qwen2.5:7b",
-    "metric":"groundedness",
+    "id":"q09_vector",
+    "model":"llama3.1:8b",
+    "metric":"answer_relevance",
     "judge_score":0.0,
-    "human_score":0.9153,
-    "divergence":0.9153,
-    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+    "ensemble_score":0.6666666667,
+    "divergence":0.6666666667,
+    "question":"What rating did Moody's assign to NordBank's long-term debt?"
   },
   {
     "id":"q14_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.0,
-    "human_score":0.9104,
-    "divergence":0.9104,
+    "ensemble_score":0.6666666667,
+    "divergence":0.6666666667,
     "question":"Has NordBank issued any green bonds?"
-  },
-  {
-    "id":"q03_vector",
-    "model":"gemma3:4b",
-    "metric":"groundedness",
-    "judge_score":0.0,
-    "human_score":0.8997,
-    "divergence":0.8997,
-    "question":"Did NordBank receive any regulatory fines in 2023?"
-  },
-  {
-    "id":"q03_vector",
-    "model":"gemma3:4b",
-    "metric":"answer_relevance",
-    "judge_score":0.0,
-    "human_score":0.8957,
-    "divergence":0.8957,
-    "question":"Did NordBank receive any regulatory fines in 2023?"
-  },
-  {
-    "id":"q20_vector",
-    "model":"gemma3:4b",
-    "metric":"answer_relevance",
-    "judge_score":0.0,
-    "human_score":0.891,
-    "divergence":0.891,
-    "question":"What cybersecurity incidents did NordBank experience in 2024?"
-  },
-  {
-    "id":"q20_vector",
-    "model":"qwen2.5:7b",
-    "metric":"answer_relevance",
-    "judge_score":0.0,
-    "human_score":0.891,
-    "divergence":0.891,
-    "question":"What cybersecurity incidents did NordBank experience in 2024?"
-  },
-  {
-    "id":"q09_vector",
-    "model":"llama3.1:8b",
-    "metric":"answer_relevance",
-    "judge_score":0.0,
-    "human_score":0.8533,
-    "divergence":0.8533,
-    "question":"What rating did Moody's assign to NordBank's long-term debt?"
   },
   {
     "id":"q20_graph",
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
     "judge_score":0.0,
-    "human_score":0.8372,
-    "divergence":0.8372,
+    "ensemble_score":0.6666666667,
+    "divergence":0.6666666667,
     "question":"What cybersecurity incidents did NordBank experience in 2024?"
   },
   {
-    "id":"q09_vector",
-    "model":"llama3.1:8b",
+    "id":"q20_graph",
+    "model":"qwen2.5:7b",
     "metric":"groundedness",
     "judge_score":0.0,
-    "human_score":0.821,
-    "divergence":0.821,
-    "question":"What rating did Moody's assign to NordBank's long-term debt?"
+    "ensemble_score":0.6666666667,
+    "divergence":0.6666666667,
+    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+  },
+  {
+    "id":"q17_graph",
+    "model":"gemma3:4b",
+    "metric":"groundedness",
+    "judge_score":1.0,
+    "ensemble_score":0.3666666667,
+    "divergence":0.6333333333,
+    "question":"Is NordBank subject to DORA compliance requirements?"
+  },
+  {
+    "id":"q03_vector",
+    "model":"llama3.1:8b",
+    "metric":"answer_relevance",
+    "judge_score":1.0,
+    "ensemble_score":0.3666666667,
+    "divergence":0.6333333333,
+    "question":"Did NordBank receive any regulatory fines in 2023?"
+  },
+  {
+    "id":"q14_vector",
+    "model":"llama3.1:8b",
+    "metric":"answer_relevance",
+    "judge_score":1.0,
+    "ensemble_score":0.4333333333,
+    "divergence":0.5666666667,
+    "question":"Has NordBank issued any green bonds?"
+  },
+  {
+    "id":"hc03_bad",
+    "model":"gemma3:4b",
+    "metric":"groundedness",
+    "judge_score":0.0,
+    "ensemble_score":0.5,
+    "divergence":0.5,
+    "question":"Has NordBank acquired any companies in 2024?"
+  },
+  {
+    "id":"hc02_bad",
+    "model":"llama3.1:8b",
+    "metric":"context_relevance",
+    "judge_score":1.0,
+    "ensemble_score":0.5,
+    "divergence":0.5,
+    "question":"What drove NordBank's fee income growth?"
   }
 ]

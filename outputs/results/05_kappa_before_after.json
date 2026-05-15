@@ -2,73 +2,73 @@
   {
     "model":"gemma3:4b",
     "metric":"context_relevance",
-    "kappa_before":0.2163,
-    "kappa_after":0.3004,
-    "delta":0.0841,
-    "above_target":false
+    "kappa_before":0.6805,
+    "kappa_after":0.9042,
+    "delta":0.2237,
+    "above_target":true
   },
   {
     "model":"gemma3:4b",
     "metric":"groundedness",
-    "kappa_before":0.2718,
-    "kappa_after":0.2466,
-    "delta":-0.0253,
-    "above_target":false
+    "kappa_before":0.7886,
+    "kappa_after":0.7886,
+    "delta":0.0,
+    "above_target":true
   },
   {
     "model":"gemma3:4b",
     "metric":"answer_relevance",
-    "kappa_before":0.3186,
-    "kappa_after":0.0302,
-    "delta":-0.2884,
-    "above_target":false
+    "kappa_before":0.5609,
+    "kappa_after":0.6212,
+    "delta":0.0604,
+    "above_target":true
   },
   {
     "model":"llama3.1:8b",
     "metric":"context_relevance",
-    "kappa_before":0.1453,
-    "kappa_after":0.0,
-    "delta":-0.1453,
+    "kappa_before":0.0775,
+    "kappa_after":0.1639,
+    "delta":0.0864,
     "above_target":false
   },
   {
     "model":"llama3.1:8b",
     "metric":"groundedness",
-    "kappa_before":0.1208,
-    "kappa_after":0.0909,
-    "delta":-0.0298,
+    "kappa_before":0.5935,
+    "kappa_after":0.5935,
+    "delta":0.0,
     "above_target":false
   },
   {
     "model":"llama3.1:8b",
     "metric":"answer_relevance",
-    "kappa_before":0.3135,
-    "kappa_after":0.0302,
-    "delta":-0.2833,
+    "kappa_before":0.3062,
+    "kappa_after":0.593,
+    "delta":0.2868,
     "above_target":false
   },
   {
     "model":"qwen2.5:7b",
     "metric":"context_relevance",
-    "kappa_before":0.1686,
-    "kappa_after":0.2024,
-    "delta":0.0337,
-    "above_target":false
+    "kappa_before":0.4886,
+    "kappa_after":0.7452,
+    "delta":0.2566,
+    "above_target":true
   },
   {
     "model":"qwen2.5:7b",
     "metric":"groundedness",
-    "kappa_before":0.2754,
-    "kappa_after":0.085,
-    "delta":-0.1904,
-    "above_target":false
+    "kappa_before":0.8014,
+    "kappa_after":0.8026,
+    "delta":0.0012,
+    "above_target":true
   },
   {
     "model":"qwen2.5:7b",
     "metric":"answer_relevance",
-    "kappa_before":0.2674,
-    "kappa_after":0.0302,
-    "delta":-0.2372,
-    "above_target":false
+    "kappa_before":0.6032,
+    "kappa_after":0.6032,
+    "delta":0.0,
+    "above_target":true
   }
 ]

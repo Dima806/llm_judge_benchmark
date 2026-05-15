@@ -38,16 +38,16 @@ def test_transform_clamps_below_zero() -> None:
 
 def test_fit_transform_roundtrip() -> None:
     raw = np.array([0.2, 0.4, 0.6, 0.8])
-    human = np.array([0.3, 0.5, 0.7, 0.9])
+    reference = np.array([0.3, 0.5, 0.7, 0.9])
     corrector = LinearCorrector()
-    corrected = corrector.fit_transform(raw, human)
+    corrected = corrector.fit_transform(raw, reference)
     assert corrected.shape == raw.shape
     assert all(0.0 <= v <= 1.0 for v in corrected)
 
 
 def test_correction_table_keys() -> None:
     scores = {
-        "human": {"metric_a": np.array([0.4, 0.6, 0.8])},
+        "ensemble": {"metric_a": np.array([0.4, 0.6, 0.8])},
         "model_x": {"metric_a": np.array([0.5, 0.7, 0.9])},
     }
     table = correction_table(scores)
@@ -55,10 +55,10 @@ def test_correction_table_keys() -> None:
     assert isinstance(table[("model_x", "metric_a")], LinearCorrector)
 
 
-def test_correction_table_excludes_human() -> None:
+def test_correction_table_excludes_ensemble() -> None:
     scores = {
-        "human": {"m": np.array([0.5, 0.6])},
+        "ensemble": {"m": np.array([0.5, 0.6])},
         "model": {"m": np.array([0.6, 0.7])},
     }
     table = correction_table(scores)
-    assert all(k[0] != "human" for k in table)
+    assert all(k[0] != "ensemble" for k in table)

@@ -1,21 +1,19 @@
 # LLM Judge Benchmark
 
-Systematic comparison of three local LLM judges against a **synthetic baseline** on 50 RAG
-answers. Measures inter-judge agreement (Cohen's kappa), systematic bias per metric, and
-calibration correction factors. Runs entirely inside a 2-CPU / 8 GB GitHub Codespace — no
-GPU, no cloud APIs.
+Systematic comparison of three local LLM judges on 50 RAG answers. Measures inter-judge
+agreement (Cohen's kappa), divergence from ensemble consensus, and calibration correction
+factors. Runs entirely inside a 2-CPU / 8 GB GitHub Codespace — no GPU, no cloud APIs.
 
-> **No real human annotators.** `data/human/human_scores.csv` is a synthetic baseline
-> generated programmatically. It stands in for human annotation to demonstrate the evaluation
-> methodology; it is not real human labels.
+The **ensemble consensus** (mean of all three judges per instance and metric) serves as
+the reference for divergence and calibration. No external ground truth is used.
 
 ## Judge models
 
-| Model | Ollama tag | RAM | Mean divergence vs baseline |
+| Model | Ollama tag | RAM | Mean divergence from ensemble |
 |---|---|---|---|
-| Qwen 2.5 7B | `qwen2.5:7b` | ~4.4 GB | 0.201 |
-| Gemma 3 4B | `gemma3:4b` | ~3.3 GB | 0.216 |
-| Llama 3.1 8B | `llama3.1:8b` | ~4.9 GB | 0.207 |
+| Qwen 2.5 7B | `qwen2.5:7b` | ~4.4 GB | 0.099 |
+| Gemma 3 4B | `gemma3:4b` | ~3.3 GB | 0.086 |
+| Llama 3.1 8B | `llama3.1:8b` | ~4.9 GB | 0.120 |
 
 Each judge scores the same 50 RAG answers across three RAG Triad dimensions:
 **context relevance**, **groundedness**, and **answer relevance**.
@@ -36,11 +34,11 @@ Run in order:
 
 | # | Notebook | Description |
 |---|---|---|
-| 01 | `01_answer_corpus.ipynb` | Build answer corpus and synthetic baseline |
+| 01 | `01_answer_corpus.ipynb` | Build answer corpus |
 | 02 | `02_judge_scoring.ipynb` | Score all instances with each judge (~37 min) |
 | 03 | `03_inter_judge_agreement.ipynb` | Cohen's kappa and correlation across judges |
-| 04 | `04_human_vs_model.ipynb` | Bias analysis: judge scores vs synthetic baseline |
-| 05 | `05_calibration_and_correction.ipynb` | Linear calibration correction per judge/metric |
+| 04 | `04_consensus_vs_individual.ipynb` | Consensus vs Individual: divergence from ensemble mean |
+| 05 | `05_calibration_and_correction.ipynb` | Linear calibration toward ensemble consensus |
 
 ## Results
 
@@ -51,43 +49,49 @@ Run in order:
 | `qwen2.5:7b` | 0.688 | 0.762 | 0.852 |
 | `gemma3:4b` | 0.878 | 0.824 | 0.872 |
 | `llama3.1:8b` | 0.868 | 0.786 | 0.810 |
-| Synthetic baseline | 0.741 | 0.773 | 0.819 |
+| Ensemble mean | 0.811 | 0.791 | 0.845 |
 
-### Inter-judge agreement (Fleiss' kappa, all 3 judges + baseline)
+### Inter-judge agreement (Fleiss' kappa, 3 judges)
 
 | Metric | Fleiss κ | Interpretation |
 |---|---|---|
-| context\_relevance | 0.136 | slight |
-| groundedness | 0.433 | moderate |
-| answer\_relevance | 0.320 | fair |
+| context\_relevance | 0.094 | slight |
+| groundedness | 0.633 | substantial |
+| answer\_relevance | 0.336 | fair |
 
-Most values fall below the 0.60 substantial-agreement threshold. Groundedness reaches moderate
-agreement (κ = 0.43) among the three judges, while context relevance and answer relevance remain
-at slight-to-fair levels — confirming that 4–8B judges diverge meaningfully from the synthetic
-baseline.
+Groundedness reaches substantial agreement (κ = 0.63) among the three judges. Context relevance
+shows only slight agreement (κ = 0.09), indicating the judges diverge most on retrieval quality.
 
-### Bias summary
+### Divergence from ensemble consensus
 
-| Model | Inflation rate (judge > baseline) | Large disagreement rate (div > 0.2) |
+| Model | Inflation rate (judge > ensemble) | Large disagreement rate (div > 0.2) |
 |---|---|---|
-| `qwen2.5:7b` | 61% | 33% |
-| `gemma3:4b` | 81% | 37% |
-| `llama3.1:8b` | 71% | 33% |
+| `qwen2.5:7b` | 23% | 15% |
+| `gemma3:4b` | 59% | 13% |
+| `llama3.1:8b` | 38% | 19% |
 
-All three models systematically over-score relative to the baseline. `gemma3:4b` has the highest
-inflation rate (81%), while `qwen2.5:7b` has the lowest mean divergence (0.201).
+`gemma3:4b` over-scores relative to the ensemble most often (59%). `llama3.1:8b` has the
+highest mean divergence (0.120) and the highest large-disagreement rate (19%).
 
-### Calibration (linear correction per judge/metric)
+### Calibration (linear correction toward ensemble)
 
-Linear correction (`corrected = a * raw + b`) does not reliably close the gap — post-calibration
-kappa remains below 0.25 across all (model, metric) pairs and never reaches the 0.60 target.
-The low slopes (`a` ≈ 0.07–0.19) indicate that raw judge scores have very low variance relative
-to the baseline, making linear rescaling insufficient.
+Linear correction (`corrected = a * raw + b`) toward the ensemble mean effectively reduces
+per-judge idiosyncrasies for `gemma3:4b` and `qwen2.5:7b`, which reach κ ≥ 0.60 across all
+metrics after calibration. `llama3.1:8b` remains below the threshold — it diverges more
+systematically from the consensus and requires a larger correction.
+
+| Model | Metrics reaching κ ≥ 0.60 after calibration |
+|---|---|
+| `gemma3:4b` | 3/3 |
+| `qwen2.5:7b` | 3/3 |
+| `llama3.1:8b` | 0/3 |
 
 ## Key design decisions
 
 - **No framework abstractions** — no LangChain, LlamaIndex, RAGAS, or OpenAI SDK. All Ollama
   calls go through `httpx` directly.
+- **Ensemble as reference** — the mean of all three judges replaces any synthetic baseline.
+  Bias and calibration are measured against this consensus, not an external ground truth.
 - **Combined scoring** — each judge returns all three metric scores in a single Ollama call
   (one JSON response), reducing API calls by 3×.
 - **Dynamic model discovery** — notebooks 03–05 scan `data/eval/scores_*.json` at runtime;
@@ -108,15 +112,14 @@ src/
   agreement/
     kappa.py             # Cohen's kappa, Fleiss' kappa
     correlation.py       # Spearman, Pearson, Kendall-tau
-    bias.py              # mean(judge_score − baseline_score) per (judge, metric)
+    bias.py              # ensemble_scores(), mean(judge − ensemble) per (judge, metric)
   calibration/
     corrector.py         # Linear fit: corrected = a * raw + b
-  visualisation.py       # Scatter matrices, bias heatmaps, agreement charts
+  visualisation.py       # Scatter matrices, bias heatmaps, calibration charts
 app/
   streamlit_app.py       # Interactive score explorer
 data/
   answers/               # Cached RAG answers (JSON)
-  human/human_scores.csv # Synthetic baseline (not real human annotation)
   eval/                  # Judge outputs (generated, gitignored)
 config/settings.yaml     # Model names, Ollama URL, scoring thresholds
 ```

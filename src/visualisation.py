@@ -19,7 +19,7 @@ def kappa_heatmap(
 
 def bias_heatmap(
     bias_matrix: pd.DataFrame,
-    title: str = "Systematic Bias (Judge \u2212 Human)",
+    title: str = "Systematic Bias (Judge \u2212 Ensemble)",
 ) -> matplotlib.figure.Figure:
     fig, ax = plt.subplots(figsize=(8, 4))
     sns.heatmap(bias_matrix, annot=True, fmt="+.3f", center=0, ax=ax)
@@ -54,23 +54,23 @@ def scatter_matrix(
 def calibration_curve(
     raw_scores: np.ndarray,
     corrected_scores: np.ndarray,
-    human_scores: np.ndarray,
+    reference_scores: np.ndarray,
     label: str = "Model",
 ) -> matplotlib.figure.Figure:
     fig, axes = plt.subplots(1, 2, figsize=(12, 5))
     ax0, ax1 = axes[0], axes[1]  # type: ignore[index]
 
-    ax0.scatter(raw_scores, human_scores, alpha=0.6, label="Raw vs Human")
+    ax0.scatter(raw_scores, reference_scores, alpha=0.6, label="Raw vs Ensemble")
     ax0.plot([0, 1], [0, 1], "k--", alpha=0.4)
     ax0.set_xlabel("Raw Score")
-    ax0.set_ylabel("Human Score")
+    ax0.set_ylabel("Ensemble Score")
     ax0.set_title(f"{label} \u2014 Before Calibration")
     ax0.legend()
 
-    ax1.scatter(corrected_scores, human_scores, alpha=0.6, label="Corrected vs Human")
+    ax1.scatter(corrected_scores, reference_scores, alpha=0.6, label="Corrected vs Ensemble")
     ax1.plot([0, 1], [0, 1], "k--", alpha=0.4)
     ax1.set_xlabel("Corrected Score")
-    ax1.set_ylabel("Human Score")
+    ax1.set_ylabel("Ensemble Score")
     ax1.set_title(f"{label} \u2014 After Calibration")
     ax1.legend()
 
