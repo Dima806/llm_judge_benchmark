@@ -107,7 +107,12 @@ class OllamaJudge:
             return False
 
     def _wait_for_ollama(self) -> None:
-        """Poll /api/tags until Ollama responds or the timeout is reached."""
+        """Poll until both the Ollama server and the model runner are responsive.
+
+        /api/tags stays up even when the llama runner subprocess has crashed, so
+        checking only the server is not enough — we also send a 1-token generate
+        request to confirm the runner has reloaded before handing back to the caller.
+        """
         if self._transport is not None:
             return  # mock transport — nothing to poll
         deadline = time.monotonic() + _OLLAMA_HEALTH_MAX_WAIT
@@ -115,9 +120,22 @@ class OllamaJudge:
             try:
                 with httpx.Client(base_url=self.ollama_url, timeout=5.0) as client:
                     client.get("/api/tags")
-                return
+                with httpx.Client(base_url=self.ollama_url, timeout=30.0) as client:
+                    resp = client.post(
+                        "/api/generate",
+                        json={
+                            "model": self.model,
+                            "prompt": "hi",
+                            "stream": False,
+                            "keep_alive": "1h",
+                            "options": {"num_ctx": 128, "num_predict": 1},
+                        },
+                    )
+                    if resp.is_success:
+                        return
             except Exception:
-                time.sleep(_OLLAMA_HEALTH_POLL_INTERVAL)
+                pass
+            time.sleep(_OLLAMA_HEALTH_POLL_INTERVAL)
         logger.warning(
             f"{self.model} | Ollama did not recover within {_OLLAMA_HEALTH_MAX_WAIT:.0f}s"
         )

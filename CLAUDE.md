@@ -2,7 +2,9 @@
 
 ## Project
 
-Systematic comparison of three local LLM judges (via Ollama) against human annotation on 50 RAG answers. Measures inter-judge agreement (Cohen's kappa), systematic bias per metric, and calibration correction factors. Runs entirely inside a 2-CPU / 8 GB GitHub Codespace — no GPU, no cloud APIs.
+Systematic comparison of three local LLM judges (via Ollama) against a **synthetic human baseline** on 50 RAG answers. Measures inter-judge agreement (Cohen's kappa), systematic bias per metric, and calibration correction factors. Runs entirely inside a 2-CPU / 8 GB GitHub Codespace — no GPU, no cloud APIs.
+
+> **No real human annotators.** `data/human/human_scores.csv` is a synthetic baseline generated programmatically. It stands in for human annotation to demonstrate the evaluation methodology; do not describe it as real human labels.
 
 ## Key constraint
 
@@ -24,7 +26,7 @@ make dev         # lint + test (fast offline loop)
 make ci          # sync + lint + test (CI pipeline)
 make test        # pytest only
 make lint        # ruff format + check + ty typecheck
-make score-all   # score all answers with all 3 judges (~65 min)
+make score-all   # score all answers with all 3 judges (~37 min)
 make run         # Streamlit app on :8501
 make lab         # JupyterLab on :8888
 ```
@@ -51,7 +53,7 @@ app/
   streamlit_app.py       # Interactive explorer
 data/
   answers/               # Cached RAG answers (JSON)
-  human/human_scores.csv # Single-annotator human baseline
+  human/human_scores.csv # Synthetic baseline (not real human annotation)
   eval/                  # Judge outputs (generated, gitignored)
 notebooks/               # 01–05, run sequentially
 tests/                   # Unit tests, all mocked
@@ -63,10 +65,10 @@ config/settings.yaml     # Model names, Ollama URL, scoring thresholds
 | Model | Ollama tag | RAM |
 |---|---|---|
 | Qwen 2.5 1.5B | `qwen2.5:1.5b` | ~1.1 GB |
-| Qwen 2.5 3B | `qwen2.5:3b` | ~2.2 GB |
-| Gemma 3 4B | `gemma3:4b` | ~3.8 GB |
+| Gemma 3 1B | `gemma3:1b` | ~830 MB |
+| Llama 3.2 1B | `llama3.2:1b` | ~1.3 GB |
 
-Load one at a time. `gemma3:4b` is the tight fit (3.8 GB model + ~4 GB OS = 7.8 GB). If OOM, fall back to `gemma3:1b`.
+All three models are under 1.5 GB. Load one at a time; the notebook restarts Ollama between models automatically.
 
 ## Scoring protocol
 
@@ -92,9 +94,9 @@ Answer instance schema:
 }
 ```
 
-Human scores CSV columns: `id, context_relevance, groundedness, answer_relevance` (floats 0–1).
+Synthetic baseline CSV columns (`data/human/human_scores.csv`): `id, context_relevance, groundedness, answer_relevance` (floats 0–1). This is a synthetic baseline, not real human annotation.
 
-Judge scores output (`data/eval/judge_scores.json`) — one record per (id, model, metric):
+Judge scores output (`data/eval/scores_<safe_model>.json`) — one record per (id, model, metric):
 ```json
 {"id": "q01_vector", "model": "qwen2.5:1.5b", "metric": "context_relevance", "score": 0.82}
 ```
@@ -112,4 +114,4 @@ Judge scores output (`data/eval/judge_scores.json`) — one record per (id, mode
 - Do not add LangChain, LlamaIndex, RAGAS, or any RAG framework.
 - Do not hardcode model names outside `config/settings.yaml` and `src/config.py`.
 - Do not write scores to `data/eval/` in tests — use tmp paths.
-- Notebook 02 (scoring) takes ~45 min. Do not add `time.sleep` or retry loops that would extend this.
+- Notebook 02 (scoring) takes ~37 min. Do not add `time.sleep` or retry loops that would extend this.

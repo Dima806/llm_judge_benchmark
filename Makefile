@@ -1,5 +1,5 @@
 .PHONY: help setup sync lint format check typecheck test notebooks \
-        score-all score-1.5b score-3b score-4b run lab clean reset ci dev
+        score-all score-1.5b score-gemma3-1b score-llama3-1b run lab clean reset ci dev
 
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | \
@@ -17,8 +17,8 @@ setup: ## First-time setup: install uv, Ollama, pull models, sync deps
 		sleep 1; \
 	done
 	ollama pull qwen2.5:1.5b
-	ollama pull qwen2.5:3b
-	ollama pull gemma3:4b
+	ollama pull gemma3:1b
+	ollama pull llama3.2:1b
 	uv run python -m ipykernel install --user --name llm-judge
 	@echo "\n✅ Ready. Run 'make test' to verify."
 
@@ -65,13 +65,13 @@ notebooks: ## Execute all notebooks in order (nb02 requires Ollama)
 score-1.5b: ## Score all answers with qwen2.5:1.5b (~15 min)
 	uv run python -m src.judging.runner --model qwen2.5:1.5b
 
-score-3b: ## Score all answers with qwen2.5:3b (~20 min)
-	uv run python -m src.judging.runner --model qwen2.5:3b
+score-gemma3-1b: ## Score all answers with gemma3:1b (~12 min)
+	uv run python -m src.judging.runner --model gemma3:1b
 
-score-4b: ## Score all answers with gemma3:4b (~30 min)
-	uv run python -m src.judging.runner --model gemma3:4b
+score-llama3-1b: ## Score all answers with llama3.2:1b (~10 min)
+	uv run python -m src.judging.runner --model llama3.2:1b
 
-score-all: score-1.5b score-3b score-4b ## Score with all 3 judges sequentially (~65 min)
+score-all: score-1.5b score-gemma3-1b score-llama3-1b ## Score with all 3 judges sequentially (~37 min)
 
 run: ## Launch Streamlit app
 	uv run streamlit run app/streamlit_app.py --server.port 8501

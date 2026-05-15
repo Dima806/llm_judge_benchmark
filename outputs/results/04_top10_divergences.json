@@ -1,0 +1,92 @@
+[
+  {
+    "id":"q14_graph",
+    "model":"qwen2.5:1.5b",
+    "metric":"answer_relevance",
+    "judge_score":0.0,
+    "human_score":0.9104,
+    "divergence":0.9104,
+    "question":"Has NordBank issued any green bonds?"
+  },
+  {
+    "id":"hc01_bad",
+    "model":"gemma3:1b",
+    "metric":"groundedness",
+    "judge_score":1.0,
+    "human_score":0.096,
+    "divergence":0.904,
+    "question":"What is NordBank's CET1 ratio?"
+  },
+  {
+    "id":"q20_graph",
+    "model":"llama3.2:1b",
+    "metric":"answer_relevance",
+    "judge_score":0.0,
+    "human_score":0.8372,
+    "divergence":0.8372,
+    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+  },
+  {
+    "id":"q20_graph",
+    "model":"qwen2.5:1.5b",
+    "metric":"answer_relevance",
+    "judge_score":0.0,
+    "human_score":0.8372,
+    "divergence":0.8372,
+    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+  },
+  {
+    "id":"q14_graph",
+    "model":"qwen2.5:1.5b",
+    "metric":"context_relevance",
+    "judge_score":0.0,
+    "human_score":0.834,
+    "divergence":0.834,
+    "question":"Has NordBank issued any green bonds?"
+  },
+  {
+    "id":"hc03_bad",
+    "model":"gemma3:1b",
+    "metric":"groundedness",
+    "judge_score":1.0,
+    "human_score":0.175,
+    "divergence":0.825,
+    "question":"Has NordBank acquired any companies in 2024?"
+  },
+  {
+    "id":"hc03_bad",
+    "model":"qwen2.5:1.5b",
+    "metric":"groundedness",
+    "judge_score":1.0,
+    "human_score":0.175,
+    "divergence":0.825,
+    "question":"Has NordBank acquired any companies in 2024?"
+  },
+  {
+    "id":"q20_vector",
+    "model":"llama3.2:1b",
+    "metric":"groundedness",
+    "judge_score":0.1,
+    "human_score":0.9153,
+    "divergence":0.8153,
+    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+  },
+  {
+    "id":"hc01_bad",
+    "model":"qwen2.5:1.5b",
+    "metric":"groundedness",
+    "judge_score":0.9,
+    "human_score":0.096,
+    "divergence":0.804,
+    "question":"What is NordBank's CET1 ratio?"
+  },
+  {
+    "id":"q20_graph",
+    "model":"llama3.2:1b",
+    "metric":"groundedness",
+    "judge_score":0.0,
+    "human_score":0.7968,
+    "divergence":0.7968,
+    "question":"What cybersecurity incidents did NordBank experience in 2024?"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "model": "gemma3:1b",
+    "metric": "context_relevance",
+    "a": 0.176805,
+    "b": 0.605015
+  },
+  {
+    "model": "gemma3:1b",
+    "metric": "groundedness",
+    "a": 0.187294,
+    "b": 0.608298
+  },
+  {
+    "model": "gemma3:1b",
+    "metric": "answer_relevance",
+    "a": 0.074625,
+    "b": 0.754281
+  },
+  {
+    "model": "llama3.2:1b",
+    "metric": "context_relevance",
+    "a": 0.06699,
+    "b": 0.70998
+  },
+  {
+    "model": "llama3.2:1b",
+    "metric": "groundedness",
+    "a": 0.154213,
+    "b": 0.681398
+  },
+  {
+    "model": "llama3.2:1b",
+    "metric": "answer_relevance",
+    "a": -0.020587,
+    "b": 0.832184
+  },
+  {
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "a": 0.148188,
+    "b": 0.619225
+  },
+  {
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "a": 0.093177,
+    "b": 0.695537
+  },
+  {
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "a": 0.148104,
+    "b": 0.688486
+  }
+]

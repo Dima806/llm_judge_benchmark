@@ -1,23 +1,65 @@
 [
   {
+    "model":"gemma3:1b",
+    "metric":"answer_relevance",
+    "mean":0.866,
+    "std":0.2132,
+    "count":50
+  },
+  {
+    "model":"gemma3:1b",
+    "metric":"context_relevance",
+    "mean":0.771,
+    "std":0.3127,
+    "count":50
+  },
+  {
+    "model":"gemma3:1b",
+    "metric":"groundedness",
+    "mean":0.8802,
+    "std":0.2282,
+    "count":50
+  },
+  {
+    "model":"llama3.2:1b",
+    "metric":"answer_relevance",
+    "mean":0.645,
+    "std":0.2882,
+    "count":50
+  },
+  {
+    "model":"llama3.2:1b",
+    "metric":"context_relevance",
+    "mean":0.468,
+    "std":0.1976,
+    "count":50
+  },
+  {
+    "model":"llama3.2:1b",
+    "metric":"groundedness",
+    "mean":0.595,
+    "std":0.273,
+    "count":50
+  },
+  {
     "model":"qwen2.5:1.5b",
     "metric":"answer_relevance",
-    "mean":0.8606,
-    "std":0.267,
+    "mean":0.8806,
+    "std":0.2473,
     "count":50
   },
   {
     "model":"qwen2.5:1.5b",
     "metric":"context_relevance",
-    "mean":0.7904,
-    "std":0.3092,
+    "mean":0.824,
+    "std":0.2782,
     "count":50
   },
   {
     "model":"qwen2.5:1.5b",
     "metric":"groundedness",
-    "mean":0.813,
-    "std":0.2956,
+    "mean":0.833,
+    "std":0.2802,
     "count":50
   }
 ]
