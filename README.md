@@ -13,9 +13,9 @@ GPU, no cloud APIs.
 
 | Model | Ollama tag | RAM | Mean divergence vs baseline |
 |---|---|---|---|
-| Qwen 2.5 1.5B | `qwen2.5:7b` | ~1.1 GB | 0.217 |
-| Gemma 3 1B | `gemma3:4b` | ~830 MB | 0.205 |
-| Llama 3.2 1B | `llama3.1:8b` | ~1.3 GB | 0.284 |
+| Qwen 2.5 7B | `qwen2.5:7b` | ~4.4 GB | 0.201 |
+| Gemma 3 4B | `gemma3:4b` | ~3.3 GB | 0.216 |
+| Llama 3.1 8B | `llama3.1:8b` | ~4.9 GB | 0.207 |
 
 Each judge scores the same 50 RAG answers across three RAG Triad dimensions:
 **context relevance**, **groundedness**, and **answer relevance**.
@@ -48,32 +48,34 @@ Run in order:
 
 | Model | context\_relevance | groundedness | answer\_relevance |
 |---|---|---|---|
-| `qwen2.5:7b` | 0.824 | 0.833 | 0.881 |
-| `gemma3:4b` | 0.771 | 0.880 | 0.866 |
-| `llama3.1:8b` | 0.468 | 0.595 | 0.645 |
+| `qwen2.5:7b` | 0.688 | 0.762 | 0.852 |
+| `gemma3:4b` | 0.878 | 0.824 | 0.872 |
+| `llama3.1:8b` | 0.868 | 0.786 | 0.810 |
 | Synthetic baseline | 0.741 | 0.773 | 0.819 |
 
 ### Inter-judge agreement (Fleiss' kappa, all 3 judges + baseline)
 
 | Metric | Fleiss κ | Interpretation |
 |---|---|---|
-| context\_relevance | 0.054 | slight |
-| groundedness | 0.215 | fair |
-| answer\_relevance | 0.107 | slight |
+| context\_relevance | 0.136 | slight |
+| groundedness | 0.433 | moderate |
+| answer\_relevance | 0.320 | fair |
 
-All values fall well below the 0.60 substantial-agreement threshold, confirming that 1B-class
-judges diverge significantly — both from each other and from the synthetic baseline.
+Most values fall below the 0.60 substantial-agreement threshold. Groundedness reaches moderate
+agreement (κ = 0.43) among the three judges, while context relevance and answer relevance remain
+at slight-to-fair levels — confirming that 4–8B judges diverge meaningfully from the synthetic
+baseline.
 
 ### Bias summary
 
 | Model | Inflation rate (judge > baseline) | Large disagreement rate (div > 0.2) |
 |---|---|---|
-| `qwen2.5:7b` | 78% | 33% |
-| `gemma3:4b` | 75% | 34% |
-| `llama3.1:8b` | 25% | 55% |
+| `qwen2.5:7b` | 61% | 33% |
+| `gemma3:4b` | 81% | 37% |
+| `llama3.1:8b` | 71% | 33% |
 
-`qwen2.5:7b` and `gemma3:4b` systematically over-score relative to the baseline.
-`llama3.1:8b` deflates scores and has the highest per-instance variance.
+All three models systematically over-score relative to the baseline. `gemma3:4b` has the highest
+inflation rate (81%), while `qwen2.5:7b` has the lowest mean divergence (0.201).
 
 ### Calibration (linear correction per judge/metric)
 

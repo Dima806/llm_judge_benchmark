@@ -64,11 +64,11 @@ config/settings.yaml     # Model names, Ollama URL, scoring thresholds
 
 | Model | Ollama tag | RAM |
 |---|---|---|
-| Qwen 2.5 1.5B | `qwen2.5:7b` | ~1.1 GB |
-| Gemma 3 1B | `gemma3:4b` | ~830 MB |
-| Llama 3.2 1B | `llama3.1:8b` | ~1.3 GB |
+| Qwen 2.5 7B | `qwen2.5:7b` | ~4.4 GB |
+| Gemma 3 4B | `gemma3:4b` | ~3.3 GB |
+| Llama 3.1 8B | `llama3.1:8b` | ~4.9 GB |
 
-All three models are under 1.5 GB. Load one at a time; the notebook restarts Ollama between models automatically.
+Models range from 3.3 to 4.9 GB. Load one at a time; the notebook restarts Ollama between models automatically.
 
 ## Scoring protocol
 
