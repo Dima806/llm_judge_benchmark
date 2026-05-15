@@ -2,7 +2,7 @@
 
 Systematic comparison of three local LLM judges on 50 RAG answers. Measures inter-judge
 agreement (Cohen's kappa), divergence from ensemble consensus, and calibration correction
-factors. Runs entirely inside a 2-CPU / 8 GB GitHub Codespace — no GPU, no cloud APIs.
+factors. Runs entirely inside a 4-CPU / 16 GB GitHub Codespace — no GPU, no cloud APIs.
 
 The **ensemble consensus** (mean of all three judges per instance and metric) serves as
 the reference for divergence and calibration. No external ground truth is used.
