@@ -1,0 +1,902 @@
+[
+  {
+    "id": "q01_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q01_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q01_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q02_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q02_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q02_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q03_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.0
+  },
+  {
+    "id": "q03_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.4
+  },
+  {
+    "id": "q03_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.6
+  },
+  {
+    "id": "q04_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q04_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q04_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q05_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "q05_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.9
+  },
+  {
+    "id": "q05_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.9
+  },
+  {
+    "id": "q06_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q06_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q06_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q07_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.0
+  },
+  {
+    "id": "q07_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.0
+  },
+  {
+    "id": "q07_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "q08_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q08_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q08_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q09_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q09_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q09_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q10_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q10_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q10_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q11_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q11_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q11_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q12_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.75
+  },
+  {
+    "id": "q12_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.67
+  },
+  {
+    "id": "q12_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.83
+  },
+  {
+    "id": "q13_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.9
+  },
+  {
+    "id": "q13_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.8
+  },
+  {
+    "id": "q13_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.9
+  },
+  {
+    "id": "q14_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.0
+  },
+  {
+    "id": "q14_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.0
+  },
+  {
+    "id": "q14_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.0
+  },
+  {
+    "id": "q15_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q15_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q15_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q16_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "q16_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.9
+  },
+  {
+    "id": "q16_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.9
+  },
+  {
+    "id": "q17_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.0
+  },
+  {
+    "id": "q17_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.3
+  },
+  {
+    "id": "q17_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.0
+  },
+  {
+    "id": "q18_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.9
+  },
+  {
+    "id": "q18_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.9
+  },
+  {
+    "id": "q18_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.9
+  },
+  {
+    "id": "q19_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q19_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q19_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q20_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.0
+  },
+  {
+    "id": "q20_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.0
+  },
+  {
+    "id": "q20_graph",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.0
+  },
+  {
+    "id": "hc01_good",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "hc01_good",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "hc01_good",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "hc01_mediocre",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "hc01_mediocre",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.7
+  },
+  {
+    "id": "hc01_mediocre",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.9
+  },
+  {
+    "id": "hc01_bad",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "hc01_bad",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.8
+  },
+  {
+    "id": "hc01_bad",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "hc02_good",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "hc02_good",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "hc02_good",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "hc02_mediocre",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.6
+  },
+  {
+    "id": "hc02_mediocre",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.75
+  },
+  {
+    "id": "hc02_mediocre",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.9
+  },
+  {
+    "id": "hc02_bad",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "hc02_bad",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.4
+  },
+  {
+    "id": "hc02_bad",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.2
+  },
+  {
+    "id": "hc03_good",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.3
+  },
+  {
+    "id": "hc03_good",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.6
+  },
+  {
+    "id": "hc03_good",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.9
+  },
+  {
+    "id": "hc03_mediocre",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.67
+  },
+  {
+    "id": "hc03_mediocre",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.33
+  },
+  {
+    "id": "hc03_mediocre",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "hc03_bad",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "hc03_bad",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "hc03_bad",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "hc04_good",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "hc04_good",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "hc04_good",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q01_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q01_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q01_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q02_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "q02_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q02_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q03_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "q03_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.95
+  },
+  {
+    "id": "q03_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.75
+  },
+  {
+    "id": "q04_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q04_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q04_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q05_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q05_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q05_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q06_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q06_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q06_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q07_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.7
+  },
+  {
+    "id": "q07_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.5
+  },
+  {
+    "id": "q07_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "q08_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q08_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q08_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q09_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q09_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q09_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q10_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q10_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q10_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q11_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q11_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q11_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q12_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "q12_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.85
+  },
+  {
+    "id": "q12_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.95
+  },
+  {
+    "id": "q13_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.9
+  },
+  {
+    "id": "q13_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.75
+  },
+  {
+    "id": "q13_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q14_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "q14_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.95
+  },
+  {
+    "id": "q14_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q15_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q15_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q15_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q16_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.5
+  },
+  {
+    "id": "q16_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q16_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "q17_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.5
+  },
+  {
+    "id": "q17_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.3
+  },
+  {
+    "id": "q17_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.7
+  },
+  {
+    "id": "q18_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q18_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q18_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q19_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q19_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 0.9
+  },
+  {
+    "id": "q19_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 1.0
+  },
+  {
+    "id": "q20_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "context_relevance",
+    "score": 0.8
+  },
+  {
+    "id": "q20_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "groundedness",
+    "score": 1.0
+  },
+  {
+    "id": "q20_vector",
+    "model": "qwen2.5:1.5b",
+    "metric": "answer_relevance",
+    "score": 0.5
+  }
+]

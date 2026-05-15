@@ -1,0 +1,23 @@
+[
+  {
+    "model":"qwen2.5:1.5b",
+    "metric":"answer_relevance",
+    "mean":0.8606,
+    "std":0.267,
+    "count":50
+  },
+  {
+    "model":"qwen2.5:1.5b",
+    "metric":"context_relevance",
+    "mean":0.7904,
+    "std":0.3092,
+    "count":50
+  },
+  {
+    "model":"qwen2.5:1.5b",
+    "metric":"groundedness",
+    "mean":0.813,
+    "std":0.2956,
+    "count":50
+  }
+]

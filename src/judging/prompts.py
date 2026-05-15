@@ -32,3 +32,19 @@ PROMPTS: dict[str, str] = {
     "groundedness": GROUNDEDNESS_PROMPT,
     "answer_relevance": ANSWER_RELEVANCE_PROMPT,
 }
+
+COMBINED_PROMPT = """You are a RAG evaluation judge. Given the question, retrieved context, and answer below, \
+rate all three dimensions simultaneously.
+
+Dimensions (score each 0.0 to 1.0):
+- context_relevance: How relevant is the context to answering the question?
+- groundedness: How well is the answer grounded in (supported by) the context?
+- answer_relevance: How relevant is the answer to the question?
+
+Return ONLY a JSON object with exactly these three keys and decimal values. No explanation, no markdown.
+
+Question: {question}
+Context: {context}
+Answer: {answer}
+
+JSON scores:"""

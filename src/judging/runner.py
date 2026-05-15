@@ -14,7 +14,7 @@ METRICS: list[str] = ["context_relevance", "groundedness", "answer_relevance"]
 
 def score_all(model: str, answers_dir: Path, output_dir: Path) -> list[dict[str, object]]:
     settings = load_settings()
-    judge = OllamaJudge(model=model, ollama_url=settings.ollama_url)
+    judge = OllamaJudge(model=model, ollama_url=settings.ollama_url, num_ctx=settings.num_ctx)
     results: list[dict[str, object]] = []
 
     for path in sorted(answers_dir.glob("*.json")):
@@ -22,13 +22,12 @@ def score_all(model: str, answers_dir: Path, output_dir: Path) -> list[dict[str,
         if isinstance(instances, dict):
             instances = [instances]
         for instance in instances:
-            for metric in METRICS:
-                score = judge.score(
-                    metric=metric,
-                    question=str(instance["question"]),
-                    context=instance["context"],
-                    answer=str(instance["answer"]),
-                )
+            scores = judge.score_all_metrics(
+                question=str(instance["question"]),
+                context=instance["context"],
+                answer=str(instance["answer"]),
+            )
+            for metric, score in scores.items():
                 record: dict[str, object] = {
                     "id": instance["id"],
                     "model": model,
